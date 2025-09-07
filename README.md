@@ -33,3 +33,8 @@ python main.py # launch the lab, pull the first lever
 ```
 
 Add new friends by copying `friends/f00_grumble/` to `friends/fXX_name/` and editing the json/txt.
+
+## Releases
+Run `.\make_zips.ps1` to build:
+- `dist\making_friends_0-source-<timestamp>.zip` (full snapshot)
+- `releases\making_friends_0-<timestamp>.zip` (clean distributable)

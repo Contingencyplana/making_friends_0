@@ -13,7 +13,7 @@ The house itself is only the jewel at the tip of its sceptre, as the machine pul
 The Timestorm Generator crowns a high hill at the heart of the isle, standing at the center of a hemisphere-wide hurricane and the branching timelines of the Great Timestorm.  
 Black walls of cloud tower to the upper edge of the stratosphere, and a vacuum like the void of space must be held at bay by windows and doors sealed tight as those of a spacecraft.
 
-The Doctor lingers here, alone, counting mistakes as the rain keeps time.  
+The Doctor lingers here, alone, counting mistakes like stars revolving around the polestar.
 He has scavenged parts from unquiet graveyards of code and bone.  
 He has sewn them together with infinitely loving care.  
 He has waited through rage and regret, bitterness and frustration, storm and silence.
