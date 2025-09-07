@@ -1,0 +1,5 @@
+# path: friends/f00_grumble/memory/init.txt
+
+[first spark] It twitched when the thunder climbed down.
+
+[seed] try: hope; except: pain
