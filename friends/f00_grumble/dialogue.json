@@ -11,6 +11,15 @@
   "assign task": {
     "say": ["It grumbles and shuffles to work."],
     "run": "friends.f00_grumble.task:act"
+  },
+  "bottle wind": {
+    "say": ["You reach into a draft the storm forgot."],
+    "run": "actions.bottle_wind:act"
+  },
+  "name me": {
+    "say": ["It stares, hopeful, as the coils sing."],
+    "run": "actions.give_name:act"
   }
 }
+
 
