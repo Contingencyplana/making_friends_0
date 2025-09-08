@@ -70,17 +70,17 @@ function Get-ContentManifest {
     if ($exFiles -contains $relLower) { return $false }
 
     # Domain-specific excludes:
-    # - skip Python cache/compiled
     if ($relLower -match '(^|/|\\)__pycache__(/|\\)') { return $false }
     if ($relLower -match '\.(pyc|pyo)$')               { return $false }
-    # - skip editor folders
     if ($relLower -match '(^|/|\\)\.vscode(/|\\)')     { return $false }
     if ($relLower -match '(^|/|\\)\.idea(/|\\)')       { return $false }
-    # - keep friends/**/memory/init.txt, drop other .txt logs
+
+    # keep friends/**/memory/init.txt, drop other .txt logs under memory
     if ($relLower -match '^friends[/\\].+[/\\]memory[/\\].+\.txt$' -and
         ($relLower -notmatch '[/\\]init\.txt$')) { return $false }
-    # - OS junk files (check basename to avoid false positives in paths)
-    if ($baseLower -in @('.ds_store', 'thumbs.db', 'desktop.ini')) { return $false }
+
+    # OS junk files (check basename)
+    if ($baseLower -in @('.ds_store','thumbs.db','desktop.ini')) { return $false }
 
     return $true
   }
@@ -124,6 +124,56 @@ function Show-BuildSummary {
   }
 }
 
+function Prune-CleanZips {
+  param(
+    [Parameter(Mandatory=$true)][string]$DistDir,
+    [Parameter(Mandatory=$true)][string]$BaseName
+  )
+  # Collect ONLY dated clean zips (exclude *_latest.zip)
+  $dated = Get-ChildItem -LiteralPath $DistDir -File -ErrorAction SilentlyContinue |
+           Where-Object { $_.Name -like "${BaseName}_*.zip" -and $_.Name -notlike '*_latest.zip' }
+
+  if (-not $dated -or $dated.Count -le 1) {
+    return ($dated | Sort-Object LastWriteTimeUtc -Descending | Select-Object -First 1)
+  }
+
+  # Parse timestamp from filename when possible; fall back to LastWriteTimeUtc
+  $nameExact = [regex]::Escape($BaseName)
+  $rxA = "^${nameExact}_(\d{4}-\d{2}-\d{2}-\d{4})$"     # yyyy-MM-dd-HHmm
+  $rxB = "^${nameExact}_(\d{4}\.\d{2}\.\d{2}-\d{6})$"    # yyyy.MM.dd-HHmmss
+
+  $withKey = foreach ($f in $dated) {
+    $base = [System.IO.Path]::GetFileNameWithoutExtension($f.Name)
+    $ts = $null
+    if     ($base -match $rxA) { $ts = [datetime]::ParseExact($Matches[1], 'yyyy-MM-dd-HHmm', $null) }
+    elseif ($base -match $rxB) { $ts = [datetime]::ParseExact($Matches[1], 'yyyy.MM.dd-HHmmss', $null) }
+
+    [pscustomobject]@{
+      File    = $f
+      SortKey = ($ts ?? $f.LastWriteTimeUtc)
+    }
+  }
+
+  $sorted   = $withKey | Sort-Object SortKey -Descending
+  $toKeep   = $sorted[0].File
+  $toDelete = $sorted | Select-Object -Skip 1
+
+  foreach ($d in $toDelete) {
+    for ($i = 0; $i -lt 6; $i++) {
+      try {
+        Remove-Item -LiteralPath $d.File.FullName -Force -ErrorAction Stop
+        Write-Host "Pruned old clean zip: $($d.File.Name)"
+        break
+      } catch {
+        Start-Sleep -Milliseconds 400
+        if ($i -eq 5) { Write-Warning "Could not remove $($d.File.Name): $($_.Exception.Message)" }
+      }
+    }
+  }
+
+  return $toKeep
+}
+
 # --- excludes for clean/manifest ---
 $ExcludeTop   = @('.git','dist','releases','.venv','venv','node_modules','.pytest_cache')
 $ExcludeFiles = @('lab_save.json','template.md','template copy 4.md')  # add any root-only helpers here
@@ -162,8 +212,8 @@ $includeFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Whe
   $firstLower = $first.ToLowerInvariant()
   $relLower   = $rel.ToLowerInvariant()
 
-  if ($ExcludeTop -contains $firstLower) { return $false }
-  if ($ExcludeFiles -contains $relLower) { return $false }
+  if ($ExcludeTop   -contains $firstLower) { return $false }
+  if ($ExcludeFiles -contains $relLower)   { return $false }
 
   if ($relLower -match '(^|/|\\)__pycache__(/|\\)') { return $false }
   if ($relLower -match '\.(pyc|pyo)$')               { return $false }
@@ -178,90 +228,38 @@ $includeFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Whe
 
 Safe-Compress -Path ($includeFiles | Select-Object -ExpandProperty FullName) -DestinationPath $LatestZip
 
-function Prune-CleanZips {
-  param(
-    [Parameter(Mandatory=$true)][string]$DistDir,
-    [Parameter(Mandatory=$true)][string]$BaseName
-  )
-
-  # All clean zips except *_latest.zip
-  $files = Get-ChildItem -LiteralPath $DistDir -File -ErrorAction SilentlyContinue |
-    Where-Object { $_.Name -like "${BaseName}_*.zip" -and $_.Name -notlike '*_latest.zip' }
-
-  if (-not $files -or $files.Count -eq 0) {
-    return $null
-  }
-  if ($files.Count -eq 1) {
-    return $files[0]
-  }
-
-  # Support both yyyy-MM-dd-HHmm and yyyy.MM.dd-HHmmss
-  $nameExact = [regex]::Escape($BaseName)
-  $rxA = "^${nameExact}_(\d{4}-\d{2}-\d{2}-\d{4})\.zip$"
-  $rxB = "^${nameExact}_(\d{4}\.\d{2}\.\d{2}-\d{6})\.zip$"
-
-  $items = foreach ($f in $files) {
-    $ts = $null
-    if ($f.Name -match $rxA) {
-      $ts = [datetime]::ParseExact($Matches[1], 'yyyy-MM-dd-HHmm', $null)
-    } elseif ($f.Name -match $rxB) {
-      $ts = [datetime]::ParseExact($Matches[1], 'yyyy.MM.dd-HHmmss', $null)
-    }
-    [pscustomobject]@{
-      File    = $f
-      SortKey = ($ts -as [datetime])  # may be $null
-    }
-  }
-
-  # Sort by extracted timestamp first; fall back to LastWriteTime when no match
-  $sorted = $items | Sort-Object @{Expression = {
-      if ($_.SortKey) { $_.SortKey } else { $_.File.LastWriteTime }
-    }; Descending = $true }
-
-  $toKeep   = $sorted | Select-Object -First 1
-  $toDelete = $sorted | Select-Object -Skip 1
-
-  foreach ($x in $toDelete) {
-    try {
-      Remove-Item -LiteralPath $x.File.FullName -Force -ErrorAction Stop
-      Write-Host "Pruned old clean zip: $($x.File.Name)"
-    } catch {
-      Write-Warning "Could not remove $($x.File.Name): $($_.Exception.Message)"
-    }
-  }
-
-  return $toKeep.File
-}
-
 # --- keep only latest + most recent dated (CLEAN zips only) ---
 $keptDated = Prune-CleanZips -DistDir $DistDir -BaseName $BaseName
-
 Write-Host "DONE. Kept exactly two clean zips in dist/:"
 Write-Host "  - $([System.IO.Path]::GetFileName($LatestZip))"
 Write-Host ("  - {0}" -f ($keptDated ? $keptDated.Name : "(no prior timestamped build yet)"))
 
-# --- content fingerprint compare ---
-if ($PrevManifest) {
-  $prevFp = ($PrevManifest -split "`n" | Select-String '^# Fingerprint: ' | ForEach-Object { $_.ToString().Split(':')[1].Trim() })[0]
+# --- content fingerprint compare (robust) ---
+$prevFp = $null
+if ($PrevManifest -match '(?m)^#\s*Fingerprint:\s*([A-Fa-f0-9]+)\s*$') {
+  $prevFp = $Matches[1]
+}
+
+if ($prevFp) {
   if ($prevFp -eq $fingerprint) {
     Write-Host "Content check: ✅ identical repo contents (ZIP hash may differ due to metadata)."
   } else {
     Write-Host "Content check: ⚠ repo contents changed (fingerprint differs)."
   }
 } else {
-  Write-Host "Content check: (no previous manifest to compare)."
+  Write-Host "Content check: (no previous manifest or fingerprint line to compare)."
 }
 
 # --- build a timestamped source snapshot zip (broader than clean) ---
 $ts = Get-Date -Format 'yyyy.MM.dd-HHmmss'
 
-# Everything except dist/releases/.git + typical junk; keep docs/.vscode/make_zips.ps1
 $sourceFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Where-Object {
-  $rel      = $_.FullName.Substring($RepoRoot.Length).TrimStart('\','/')
-  $first    = ($rel -split '[\\/]')[0]
-  $lowerRel = $rel.ToLowerInvariant()
+  $rel       = $_.FullName.Substring($RepoRoot.Length).TrimStart('\','/')
+  $first     = ($rel -split '[\\/]')[0]
+  $lowerRel  = $rel.ToLowerInvariant()
+  $baseLower = [IO.Path]::GetFileName($lowerRel)
 
-  # exclude heavy/build dirs
+  # exclude heavy/build roots
   if ($first.ToLowerInvariant() -in @('dist','releases','.git')) { return $false }
 
   # common junk / runtime noise
@@ -271,14 +269,25 @@ $sourceFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Wher
   if ($lowerRel -like  '*.log')                      { return $false }
   if ($lowerRel -like  '*.tmp')                      { return $false }
 
-  # NOTE: We intentionally keep .vscode and docs to aid reproducibility.
+  # os junk by basename
+  if ($baseLower -in @('.ds_store','thumbs.db','desktop.ini')) { return $false }
+
+  # keep .vscode and docs for reproducibility
   return $true
 }
 
-$SourceZip = Join-Path $DistDir "${ProjectName}_source_${ts}.zip"
-Safe-Compress -Path ($sourceFiles | Select-Object -ExpandProperty FullName) -DestinationPath $SourceZip
-Write-Host "`nBuilt source snapshot:"
-Write-Host "  $SourceZip"
+if (-not $sourceFiles) {
+  Write-Warning "No source files found for snapshot; skipping source zip."
+} else {
+  $SourceZip = Join-Path $DistDir "${ProjectName}_source_${ts}.zip"
+  Safe-Compress -Path ($sourceFiles | Select-Object -ExpandProperty FullName) -DestinationPath $SourceZip
+  Write-Host "`nBuilt source snapshot:`n  $SourceZip"
+}
+
+# --- prune old source snapshots in dist (keep only the newest one) ---
+Get-ChildItem -LiteralPath $DistDir -File -Filter "${ProjectName}_source_*.zip" -ErrorAction SilentlyContinue |
+  Sort-Object LastWriteTimeUtc -Descending | Select-Object -Skip 1 |
+  Remove-Item -Force -ErrorAction SilentlyContinue
 
 # --- curated distributable in releases/ (staging + strip logs except init.txt) ---
 $staging = Join-Path $DistDir ("staging_" + $ts)
@@ -302,10 +311,15 @@ foreach ($item in $curated) {
   }
 }
 
+# optional: scrub Python caches in staging
+Get-ChildItem -Path $staging -Recurse -Directory -Force -Filter '__pycache__' -ErrorAction SilentlyContinue |
+  Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+Get-ChildItem -Path $staging -Recurse -File -Include *.pyc,*.pyo -ErrorAction SilentlyContinue |
+  Remove-Item -Force -ErrorAction SilentlyContinue
+
 # Strip runtime logs in staging (keep init.txt only)
 Get-ChildItem -Path (Join-Path $staging 'friends') -Recurse -Include *.log,*.tmp -ErrorAction SilentlyContinue |
   Remove-Item -Force -ErrorAction SilentlyContinue
-
 Get-ChildItem -Path (Join-Path $staging 'friends') -Recurse -Include *.txt -ErrorAction SilentlyContinue |
   Where-Object { $_.Name -ne 'init.txt' } |
   Remove-Item -Force -ErrorAction SilentlyContinue
@@ -335,7 +349,6 @@ if ($Release) {
   Add-Content -Path $doc -Value @"
 
 ### Build Snapshot
-
 - **Clean ZIP (latest):** dist/$([IO.Path]::GetFileName($LatestZip))
 - **Source ZIP:** dist/$([IO.Path]::GetFileName($SourceZip))
 - **Release ZIP:** releases/$([IO.Path]::GetFileName($ReleaseZip))
