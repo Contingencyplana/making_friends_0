@@ -21,3 +21,18 @@ You chose action: assign task
 [time] +24 minutes in the timestorm.
 
 Grumble checked three pipes. All leaking a little.
+A small bottle of wind rattles softly.You chose action: bottle wind
+[time] +19 minutes in the timestorm.
+You chose action: name me
+[time] +15 minutes in the timestorm.
+You chose action: hello
+[time] +11 minutes in the timestorm.
+You chose action: observe
+[time] +10 minutes in the timestorm.
+You chose action: thanks
+[time] +11 minutes in the timestorm.
+You chose action: thanks
+[time] +12 minutes in the timestorm.
+
+Grumble checked three pipes. All leaking a little.You chose action: assign task
+[time] +13 minutes in the timestorm.
