@@ -70,20 +70,20 @@ def show_intro():
 
 
 def prompt(choices, header):
-    """Display a menu and return the index of the chosen option."""
+    """Display a menu and return the index of the chosen option, or None if 'q'."""
     while True:
         print(header)
         for i, ch in enumerate(choices, 1):
             print(f" {i:2d}. {ch}")
-        print(" q. quit")
+
         ans = input("> ").strip().lower()
-        if ans == "q":
-            sys.exit(0)
+        if ans == "q":   # still supported as a hidden escape hatch
+            return None
         if ans.isdigit():
             n = int(ans)
             if 1 <= n <= len(choices):
                 return n - 1
-        print("Please choose a number or 'q'.\n")
+        print("Please choose a number.\n")
 
 
 def list_friend_names():
@@ -102,10 +102,6 @@ def choose_friend():
 
 
 def estimate_minutes_for_action(friend_name: str, action: str) -> int:
-    """
-    Lightweight estimate of how long a timeline excursion took.
-    Later you can make this deterministic (e.g., lookup from dialogue).
-    """
     a = action.lower()
     if any(k in a for k in ("hello", "thanks", "observe")):
         return random.randint(6, 12)
@@ -113,10 +109,6 @@ def estimate_minutes_for_action(friend_name: str, action: str) -> int:
 
 
 def maybe_trigger_break(friend_path: Path, minutes_added: int):
-    """
-    After adding minutes to the storm-day, see if we crossed a threshold.
-    Show a non-lever interlude menu if so. Sleep resets the storm-day.
-    """
     global storm_day_minutes, storm_breaks_done
     before = storm_day_minutes
     after = before + minutes_added
@@ -132,41 +124,32 @@ def maybe_trigger_break(friend_path: Path, minutes_added: int):
         storm_breaks_done.add("exercise")
     elif "sleep" not in storm_breaks_done and crossed(SLEEP_MINS):
         show_break_menu(friend_path, kind="sleep")
-        # Reset storm day after sleep
         storm_day_minutes = 0
         storm_breaks_done.clear()
-        return  # we've reset; don't add 'after' minutes below
+        return
 
-    # If no reset happened, record minutes
     storm_day_minutes = min(after, DAY_MINS)
 
 
 def show_break_menu(friend_path: Path, kind: str):
-    """Non-lever interludes: meal, exercise, sleep."""
     clear()
     if kind == "meal":
         header = "The Lonely Doctor’s stomach protests. Choose a quick bite:"
-        choices = [
-            "Stale bread and lightning tea.",
-            "Cold soup by the service stairs.",
-            "Pickled moths (don’t ask).",
-        ]
+        choices = ["Stale bread and lightning tea.",
+                   "Cold soup by the service stairs.",
+                   "Pickled moths (don’t ask)."]
         tag = "[break] meal — "
     elif kind == "exercise":
         header = "Muscles ache. Choose a quick exercise:"
-        choices = [
-            "Jog the Sceptre stairs to the bottom and back.",
-            "Stretch beneath the humming coils.",
-            "Shadow-box the storm in the corridor.",
-        ]
+        choices = ["Jog the Sceptre stairs to the bottom and back.",
+                   "Stretch beneath the humming coils.",
+                   "Shadow-box the storm in the corridor."]
         tag = "[break] exercise — "
-    else:  # sleep
+    else:
         header = "Eyes burn. Choose a brief rest:"
-        choices = [
-            "Shower; collapse across the bed; twenty winks.",
-            "Face-down on the desk; the storm sings you under.",
-            "On the floor by the console; you dream of quiet pipes.",
-        ]
+        choices = ["Shower; collapse across the bed; twenty winks.",
+                   "Face-down on the desk; the storm sings you under.",
+                   "On the floor by the console; you dream of quiet pipes."]
         tag = "[break] sleep — "
 
     idx = prompt(choices, header)
@@ -179,10 +162,6 @@ def show_break_menu(friend_path: Path, kind: str):
 
 
 def save_state():
-    """
-    Minimal 'seal notes' save: writes a small JSON file at project root.
-    (Later you can expand with more world state.)
-    """
     global storm_day_minutes, storm_breaks_done
     root = Path(__file__).resolve().parent
     save_file = root / "lab_save.json"
@@ -195,65 +174,55 @@ def save_state():
     save_file.write_text(json.dumps(data, indent=2), encoding="utf-8")
 
 
-def meditation_menu():
-    """
-    Lever 16: meta/system actions wrapped in-world.
-    - Quit
-    - Save and Quit
-    - Return to levers
-    """
-    clear()
-    header = "The Lonely Doctor closes his eyes and steadies his breath. What now?"
-    choices = [
-        "He closes the console and lets the timestorm fade. (Quit)",
-        "He seals his notes for safekeeping, then departs. (Save and Quit)",
-        "He breathes deeply and returns to the console. (Back)",
-    ]
-    idx = prompt(choices, header)
-    if idx == 0:
-        clear()
-        print("The storm dims to a distant murmur.")
-        sys.exit(0)
-    elif idx == 1:
-        save_state()
-        clear()
-        print("Notes sealed. The storm dims to a distant murmur.")
-        sys.exit(0)
-    else:
-        clear()
-        return
+def meditation_menu(on_save=None):
+    while True:
+        print("\nMeditation")
+        print("  1) Save and Quit")
+        print("  2) Quit without Saving")
+        print("  3) Back")
+        choice = input("> ").strip().lower()
+
+        if choice in ("1", "s", "save", "sq"):
+            if callable(on_save):
+                try:
+                    on_save()
+                except Exception as e:
+                    print(f"(save failed: {e})")
+            print("Good night. 🌙")
+            sys.exit(0)
+
+        elif choice in ("2", "q", "quit"):
+            print("Until next time. 👋")
+            sys.exit(0)
+
+        elif choice in ("3", "b", "back", ""):
+            return
+        else:
+            print("Try 1) Save and Quit, 2) Quit, or 3) Back.")
 
 
 def speak(friend_path: Path):
-    """Talk to a friend by choosing from its dialogue actions."""
     man = load_manifest(friend_path)
     dia = load_dialogue(friend_path)
 
-    actions = list(dia.keys())  # flexible menu: 2–N actions
+    actions = list(dia.keys())
     while True:
         clear()
         print(f"Friend: {man.get('name','?')} | Role: {man.get('role','?')} | Stage: {man.get('stage',0)}\n")
-        try:
-            idx = prompt(actions, "Choose an action:")
-        except SystemExit:
+        idx = prompt(actions, "Choose an action:")
+        if idx is None:
             return
 
         act = actions[idx]
-        # Allow actions to be a single string or a list of paragraphs
         lines = dia[act] if isinstance(dia[act], list) else [str(dia[act])]
         for line in lines:
             print("\n" + line)
             input("(press Enter)")
 
-        # simple log
         append_memory(friend_path, f"You chose action: {act}")
-
-        # Add timeline minutes and maybe trigger a break
         mins = estimate_minutes_for_action(man.get('name', '?'), act)
         append_memory(friend_path, f"[time] +{mins} minutes in the timestorm.")
         maybe_trigger_break(friend_path, mins)
-
-        # small spacer before re-showing the actions
         clear()
 
 
@@ -261,25 +230,32 @@ def main():
     clear()
     print(TITLE)
     print("— a very small beginning —\n")
-
-    show_intro()  # show story.md once at startup
+    show_intro()
 
     while True:
-        # choose a lab lever (renamed from "mood")
-        lever_idx = prompt(MAIN_CHOICES, "The lab awaits. Choose a lever:")
+        print("The lab awaits. Choose a lever:")
+        for i, ch in enumerate(MAIN_CHOICES, 1):
+            print(f" {i:2d}. {ch}")
 
-        # Lever 16 (index 15) = Meditation (Quit/Save/Return)
-        if lever_idx == 15:
-            meditation_menu()
-            clear()
+        sel = input("> ").strip().lower()
+
+        if sel in ("q", "quit"):
+            print("(Quit has moved into Meditation.)")
+            meditation_menu(on_save=save_state)
             continue
 
-        # Otherwise, route to a friend
-        friend = choose_friend()
-        speak(friend)
+        if sel in ("16", "m", "meditate"):
+            meditation_menu(on_save=save_state)
+            continue
 
-        # After finishing, return to the lab instead of quitting
-        clear()
+        if sel.isdigit():
+            n = int(sel)
+            if 1 <= n <= 15:
+                friend = choose_friend()
+                speak(friend)
+                continue
+
+        print("Please choose a lever number (1–16).")
 
 
 if __name__ == "__main__":
