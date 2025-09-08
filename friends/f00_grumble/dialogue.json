@@ -1,10 +1,16 @@
 {
-  "hello": ["grh... hello-doctor"],
+  "hello": "grh... hello-doctor",
   "observe": [
     "It twitches once.",
+    "",
     "The lights flicker.",
+    "",
     "The storm hums approval."
   ],
-  "thanks": ["hrr. okay."],
-  "assign task": ["It grumbles and shuffles to work."]
+  "thanks": "hrr. okay.",
+  "assign task": {
+    "say": ["It grumbles and shuffles to work."],
+    "run": "friends.f00_grumble.task:act"
+  }
 }
+

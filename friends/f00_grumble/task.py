@@ -1,27 +1,16 @@
-# path: friends/f00_grumble/task.py
-
-"""
-Grumble's tiny task:
-- If pipe.txt exists and contains 'leak', log that it was sealed.
-"""
+# friends/f00_grumble/task.py
 
 from pathlib import Path
 
-HERE = Path(__file__).resolve().parent
-PIPE = HERE / "pipe.txt"
-LOG = HERE / "memory" / "init.txt"
-
-
-def run():
-    """Run Grumble's task: inspect pipe.txt and log if a leak was sealed."""
-    text = PIPE.read_text(encoding="utf-8").lower() if PIPE.exists() else ""
-    if "leak" in text:
-        LOG.parent.mkdir(parents=True, exist_ok=True)
-        with LOG.open("a", encoding="utf-8") as f:
-            f.write("[task] Grumble sealed a leak.\n")
-        return "Leak found — sealed with a grumble."
-    return "All pipes steady, for now."
-
-
-if __name__ == "__main__":
-    print(run())
+def act(state, friend_path: Path):
+    """
+    Do one tiny thing, return a short message (or (msg, delta)).
+    """
+    log = friend_path / "memory" / "init.txt"
+    extra = "\nGrumble checked three pipes. All leaking a little."
+    try:
+        log.write_text(log.read_text("utf-8") + extra, encoding="utf-8")
+    except FileNotFoundError:
+        (friend_path / "memory").mkdir(exist_ok=True, parents=True)
+        log.write_text(extra.strip(), encoding="utf-8")
+    return "Task logged in memory/init.txt"

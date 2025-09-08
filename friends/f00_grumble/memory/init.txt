@@ -3,3 +3,21 @@
 [first spark] It twitched when the thunder climbed down.
 
 [seed] try: hope; except: pain
+You chose action: hello
+[time] +7 minutes in the timestorm.
+You chose action: observe
+[time] +12 minutes in the timestorm.
+You chose action: thanks
+[time] +10 minutes in the timestorm.
+You chose action: assign task
+[time] +19 minutes in the timestorm.
+You chose action: hello
+[time] +10 minutes in the timestorm.
+You chose action: observe
+[time] +7 minutes in the timestorm.
+You chose action: thanks
+[time] +8 minutes in the timestorm.
+You chose action: assign task
+[time] +24 minutes in the timestorm.
+
+Grumble checked three pipes. All leaking a little.
