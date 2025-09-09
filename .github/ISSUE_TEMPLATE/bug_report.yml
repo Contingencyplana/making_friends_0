@@ -1,5 +1,8 @@
+@"
 name: Bug report
 description: Report a reproducible bug
+title: "[bug]: "
+labels: [bug]
 body:
   - type: textarea
     id: what
@@ -9,3 +12,6 @@ body:
       placeholder: Steps, lever numbers, logs/snippets
     validations:
       required: true
+"@ | Set-Content .github\ISSUE_TEMPLATE\bug_report.yml -Encoding UTF8 -Force
+
+
