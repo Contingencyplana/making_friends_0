@@ -38,6 +38,7 @@ python main.py   # launch the lab, pull the first lever
 │   ├── ISSUE_TEMPLATE/        # bug_report.yml
 │   └── PULL_REQUEST_TEMPLATE.md
 └── docs/
+    ├── OVERVIEW.md
     ├── foundations_and_roles.md
     ├── creative_ecosystem_ai.md
     ├── mythic_ladder_of_cybergods.md
