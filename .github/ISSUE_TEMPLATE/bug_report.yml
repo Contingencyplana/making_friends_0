@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a reproducible bug
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Clear steps to reproduce, what you expected vs. what you saw.
+      placeholder: Steps, lever numbers, logs/snippets
+    validations:
+      required: true
