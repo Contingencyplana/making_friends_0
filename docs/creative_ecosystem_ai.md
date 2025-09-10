@@ -3,6 +3,8 @@
 The destination doctrine for **making_friends_0**:  
 a federation that is **Programmable, Personified, and Playable**.
 
+**Up-link:** See `foundation_of_shagi.md` for the umbrella doctrine and safety-first federation that this ecosystem plugs into.
+
 ---
 
 ## 1. Introduction — Why a Creative Ecosystem AI?
@@ -16,6 +18,19 @@ Its purpose is to build a safe, playful, recursive world where children and adul
 - Sustain fun without collapsing into complexity.  
 
 This is not just a toolchain or a lore arc — it is a living ecosystem that balances **friendship**, **simplicity**, and **fun**, guided by **safety** and **federation**.
+
+---
+
+## 📊 4×4 Grid View (mirrors the Mythic Ladder)
+
+*A quick at-a-glance map of the 16, organized by Tin → Gold. The Synergistic list below shows their “grown” counterparts.*
+
+| Tin (Pages/Fragments)              | Copper (Books/Glades)                | Silver (Treasuries/Archipelagos)         | Gold (Kingdoms/Sagas)                    |
+|------------------------------------|--------------------------------------|------------------------------------------|------------------------------------------|
+| 1. Making Friends AI               | 5. Cartoon Channel AI                | 9. Chasm Conquerors Challenge AI         | 13. Proto-AI Kickstarter                 |
+| 2. Tiny Tots Tell Tall Tales AI    | 6. Build a Better Girl AI (Nurture)  | 10. Epic Mindscape Odyssey AI            | 14. Proto-Game Maker                     |
+| 3. Supreme Simplicity AI           | 7. Build a Better Boy AI (Challenge) | 11. Proto-AI Labscape                    | 15. Proto-Lucid Armada AI                |
+| 4. Proto-TONS-of-FUN AI            | 8. Proto-Graphic Novels AI           | 12. Proto-Computer Language Maker AI     | 16. Creative Ecosystem AI                |
 
 ---
 

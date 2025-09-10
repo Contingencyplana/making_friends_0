@@ -42,6 +42,10 @@ It defines **how tasks are carried out**, and the **roles** each collaborator pl
   - ✅ Full-file replacements (overwrite + save)  
   - ✅ Copilot Pro messages (instructions I paste for implementation)  
 
+- **Automation Promise**  
+  - Default deliverables are full-file replacements, terminal command lists, or Copilot-ready prompts.  
+  - No snippet hunts unless absolutely unavoidable.  
+
 - **Clarity Over Brevity**  
   - More context is better than less.  
   - Tasks are framed so the Vision Holder does not need to hunt around inside files.  
@@ -52,3 +56,4 @@ It defines **how tasks are carried out**, and the **roles** each collaborator pl
 
 > Build at the **speed of fun**, not the speed of frustration.  
 > The system must feel playful and sustainable at every step.
+
