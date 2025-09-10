@@ -16,7 +16,7 @@ python main.py   # launch the lab, pull the first lever
 
 ## Folder Map
 
-```
+```text
 📁 making_friends_0/
 ├── README.md                  # orientation & quickstart
 ├── main.py                    # game loop: menus, levers, interactions
