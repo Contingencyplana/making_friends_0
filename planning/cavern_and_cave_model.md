@@ -15,26 +15,26 @@ This file defines the canonical structure for **caverns** (VS Code workspaces) a
 ## 2. Workspace Types
 - **Planning Workspace**
   - Focus: docs, decisions, light prototypes.
-  - Caves: planning-caves, lab-caves (toy friends), test-caves.
+  - Caves: planning-caves, toy friends (light Whitecoat work), test-caves.
 - **Build/Runtime Workspace**
   - Focus: runnable systems, packaging, release.
-  - Caves: lab-caves (active friends), release-caves, test-caves.
+  - Caves: friends (active Whitecoat domain), release-caves, test-caves.
 
 ---
 
 ## 3. Exception Model — `making_friends_0`
 - **Main Cavern (repo root)**: day-to-day work (planning, friends, tests, scripts, zips).
-- **Planning Parliament Cavern**: high-level planning, charters, motions, decisions.
-- Rationale: `making_friends_0` sets the pattern for all other workspaces.
+- **Planning Parliament Cavern**: opens off the Main Cavern; holds high-level planning, charters, motions, and decisions.
+- **Rationale**: `making_friends_0` sets the pattern for all other workspaces, anchoring the Parliament model.
 
 ---
 
 ## 4. Standard Cavern Layout
-Each cavern (except Planning Parliament) contains:
+Each cavern (except the Planning Parliament itself) contains:
 1. **Round Table** → coordination hub (workspace-level planning/README).
-2. **Deputy Planner** → liaison to Planning Parliament.
+2. **Deputy Planner** → liaison to the Planning Parliament.
 3. **Cave Leaders + Chairs** → every cave lead has a “seat” at the round table.
-4. **Ring of Caves** → entrances to all caves (each a single-task team).
+4. **Ring of Caves** → entrances to all caves (each a **single-task team**).
 5. **File Cabinets** → shared registries between entrances (taskmaps, milestones, DR links).
 
 **Subdivision:**  
@@ -56,7 +56,7 @@ Each cavern (except Planning Parliament) contains:
 ## 6. Cave Taxonomy
 - **planning-caves** → taskmaps, roadmaps, milestones, scratch.  
 - **parliament-caves** → proposals, motions, decisions, minutes.  
-- **lab-caves** → friends with `memory/`, configs, code.  
+- **friends-caves (Whitecoat domain)** → friends with `memory/`, configs, code.  
 - **test-caves** → harnesses, fixtures, sim narratives.  
 - **release-caves** → curated bundles, versioned deliverables.  
 - **archive-caves** → retired content, kept for provenance.
@@ -91,7 +91,7 @@ Each cavern (except Planning Parliament) contains:
   - `PROPOSAL-YYYYMMDD-slug.md`  
   - `MOTION-YYYYMMDD-slug.md`  
   - `MINUTES-YYYYMMDD.md`
-- **Friends (lab-caves)**:  
+- **Friends (Whitecoat domain)**:  
   - `friends/<friend_slug>/memory/init.txt`  
   - `friends/<friend_slug>/friend.json`  
   - `friends/<friend_slug>/main.py`
@@ -108,4 +108,3 @@ Each cavern (except Planning Parliament) contains:
 - Release notes reference DR IDs that changed scope.
 
 ---
-

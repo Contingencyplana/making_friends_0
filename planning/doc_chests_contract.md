@@ -1,60 +1,45 @@
-# Narrative Bridge Templates
+# Document Chests Contract (Canon)
 
-Use these snippets to reference planning/governance files **inside the story**.
-
----
-
-## 1) Lore Note (Inline)
-> **Lore Note:** The girl brushed dust from a parchment stamped with **DR-YYYYMMDD-####**.  
-> “It says the cave must split,” she whispered. “Two doors now, not one.”  
-> *(See Decision Record in the left arm chest of Igor’s Chair.)*
-
-**Fill-ins:**  
-- Replace DR ID.  
-- Mention where the reader can “find” it (e.g., left/right arm chest).
+This contract defines how planning and governance artifacts are woven into the story world of Making Friends AI.  
+It distinguishes **policy** (this file) from **templates** (see `planning/narrative_bridge_templates.md`).
 
 ---
 
-## 2) Chest Index (Scene Prop)
-**Igor’s Broad Chair — Document Chests**
+## 1. The Broad Chair & Its Chests
+- **Left Arm Chest — Governance**  
+  Holds the Planning Parliament’s scrolls: **Proposals, Motions, Decision Records (DRs), Minutes**.  
 
-**Left Arm (Governance):**  
-- `DR-YYYYMMDD-####` — [Short title]  
-- `PROPOSAL-YYYYMMDD-slug` — [Short title]  
+- **Right Arm Chest — Local Notices**  
+  Holds cave-level artifacts: **Door Notices, Cave Charters, Round Table Cards**.  
 
-**Right Arm (Local Notices):**  
-- `[Cave Name] — Door Notice` (today’s tasks)  
-- `[Cave Name] — Charter` (single-task promise)
-
-*(This index appears as a page at the Round Table.)*
+- **Optional Compartments**  
+  - *Seat Drawer — Releases Ledger*: hashes, notes, DR references.  
+  - *Footlocker — Archive*: superseded DRs, retired notices.  
 
 ---
 
-## 3) DR Cameo (Document as Object)
-> The wax seal cracked. Inside, the decree read:  
-> **“DR-YYYYMMDD-#### — Adopt the Ring of Caves (Single-Task Teams).”**  
-> In the margin: *Effective immediately; split the Build Cave into two doors.*
-
-**Tip:** Keep the DR ID and title intact; let the story paraphrase details.
-
----
-
-## 4) Cave Door Notice (Local Planning in Story)
-**Door Notice — [Cave Name]**  
-- **Task:** [Single, crisp task]  
-- **Lead:** [Name/role]  
-- **Depends on:** [Other cave(s) or DR IDs]  
-- **Ready for Release?:** [Yes/No] (DR link if policy changed)
-
-*(Store this as a small file in the cave folder; reference it in story scenes.)*
+## 2. Narrative Bridge Rules
+- Every overarching planning file must be reachable through at least one **Lore Note** or **Chest Index** in-story.  
+- Parliament artifacts (DRs, Proposals, Motions, Minutes) are always stored in the **Left Arm Chest**.  
+- Local cave planning (Door Notices, Charters) are always stored in the **Right Arm Chest**.  
+- Round Table Cards appear in-story at the council scene, but are also indexed here.  
 
 ---
 
-## 5) Round Table Card (Workspace Snapshot)
-**Round Table Card — [Week/Span]**  
-- **Open Doors:** [Cave A], [Cave B], [Cave C]  
-- **New Seals:** DR IDs ratified this week  
-- **Next Motions:** [Proposals queued]  
+## 3. Provenance
+- **Traceability**: each Decision Record (DR) must cite drafts, proposals, and motions that preceded it.  
+- **Release linkage**: each release zip notes the DR-IDs that changed scope.  
+- **Archival**: superseded DRs and retired notices move to the Footlocker but remain referenceable.  
 
-*(Appears in story at the council scene; links to actual files.)*
+---
 
+## 4. Placement Summary
+- **Root (identity):** `cavern_charter.md`, `planning_parliament.md`, `charter_of_the_poles.md`  
+- **Planning Chest:** this file (`doc_chests_contract.md`)  
+- **Templates:** `narrative_bridge_templates.md`  
+- **Governance artifacts:** `DR-*.md`, `PROPOSAL-*.md`, `MOTION-*.md`, `MINUTES-*.md` (Left Arm Chest)  
+- **Local notices:** `door_notice.md`, `README.md` (cave charter), `round_table_card-*.md` (Right Arm Chest)
+
+---
+
+*This contract ensures that every scroll, notice, and card has a clear home in Igor’s Chair and a bridge into the story world.*  

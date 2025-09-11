@@ -6,28 +6,31 @@ The **making_friends_0** workspace is built around tiny steps, playful recursion
 
 ## Runtime
 
-- **`main.py`** — entry point (menus, levers, meditation).
-- **`scripts/utils/`** — shared helpers (dialogue, manifest, memory).
+- **`main.py`** — entry point (menus, levers, meditation).  
+- **`scripts/utils/`** — shared helpers (dialogue, manifest, memory).  
 
 ---
 
 ## Content
 
-- **`friends/<friend>/`**
-  - `manifest.json` — metadata and role.
-  - `dialogue.json` — lines and choices.
-  - `memory/` — evolving state.
+- **`friends/<friend>/`**  
+  - `manifest.json` — metadata and role.  
+  - `dialogue.json` — lines and choices.  
+  - `memory/` — evolving state.  
+
+**Rule:** *One cave = one task team of friends.*  
+Each cave’s friends work toward exactly one purpose.  
 
 Example:  
-`friends/clockwork_girl/manifest.json`
+`friends/clockwork_girl/manifest.json`  
 
 ---
 
 ## Build
 
-- **`make_zips.ps1`**
-  - Creates clean zips (2-zip rotation).
-  - Builds source snapshots and curated releases.
+- **`make_zips.ps1`**  
+  - Creates clean zips (2-zip rotation).  
+  - Builds source snapshots and curated releases.  
 
 ---
 
@@ -38,13 +41,18 @@ Core doctrine files:
 - `creative_ecosystem_ai.md`  
 - `mythic_ladder_of_cybergods.md`  
 - `valiant_citadel.md`  
-- `foundation_of_shagi.md`
+- `foundation_of_shagi.md`  
+
+Planning anchors (Igor’s chests):  
+- `planning/cavern_and_cave_model.md`  
+- `planning/charter_of_the_poles.md`  
+- `planning/planning_parliament.md`  
 
 Meta/process files:  
 - `CODE_OF_CONDUCT.md`, `CONTRIBUTING.md`, `SECURITY.md`, `GOVERNANCE.md`  
 - `DATA_PROVENANCE.md`, `RELEASING.md`  
 - `.github/` issue & PR templates  
-- `.vscode/launch.json`
+- `.vscode/launch.json`  
 
 ---
 
@@ -55,3 +63,5 @@ Meta/process files:
 - **Playable:** every step is fun.  
 
 Architecture grows recursively but stays simple.
+
+Add entries per lever as they gain behavior.

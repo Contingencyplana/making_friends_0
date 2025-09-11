@@ -26,6 +26,12 @@
 - Meditation meta-lever (Quit / Save+Quit / Back)
 - Meal/exercise/sleep interludes
 
+> **Phase Transition**  
+> With Genesis complete, we now enter the **Planning Phase**:  
+> - **North (Planning Pole)** — Igor, the Great Planner, Keeper of the Planning Great Chair.  
+> - **South (Whitecoat Pole)** — Ivy, the Great Whitecoat, Keeper of the Whitecoat Great Chair.  
+> Together they balance Parliament and Labs, scrolls and experiments, storm and storm.
+
 ### v0.2.x — *More Friends, Better Flow*
 - `friends/_template` to mint new friends quickly
 - CLI helper: `new_friend.py name=...`
@@ -74,8 +80,6 @@
 /main.py /story.md /scripts/utils.py /friends/f00_grumble/... /docs/OVERVIEW.md ← you are here
 ```
 
----
-
 ## ✅ Near-Term To-Dos
 - [ ] Add `/friends/_template/` and `new_friend.py`
 - [ ] Add `docs/CONTRIBUTING.md` (how to submit a friend)
@@ -91,4 +95,5 @@
 
 ---
 
-*The levers are waiting. Build story that builds tools that build story.*
+*The levers are waiting. Build story that builds tools that build story.*  
+Add entries per lever as they gain behavior.

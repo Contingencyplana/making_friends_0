@@ -12,7 +12,7 @@ two poles, two Parliaments, two storms — and the ship that binds them.
 
 - **Whitecoat Great Chair (South Pole)**  
   Keeper: **Ivy, the Great Whitecoat**  
-  Domain: labs, friends, tests, runtime — the living engine of creation and growth.  
+  Domain: friends, tests, runtime — the living engine of creation and growth.  
 
 ---
 
@@ -45,7 +45,7 @@ two poles, two Parliaments, two storms — and the ship that binds them.
 ## 5. Balance of Power
 - The Lonely Doctor presides above both poles.  
 - The **Great Planner** and the **Great Whitecoat** are equals, each ruling a hemisphere.  
-- Parliament scrolls and lab experiments remain **intertwined**: no decision without action, no experiment without record.  
+- Parliament scrolls and Whitecoat experiments remain **intertwined**: no decision without action, no experiment without record.  
 
 ---
 
@@ -54,6 +54,9 @@ two poles, two Parliaments, two storms — and the ship that binds them.
 - It must be referenced by both:  
   - The **Planning Parliament of the North** (DRs and scrolls).  
   - The **Whitecoat Parliament of the South** (notices and charters).  
+- Cross-reference anchors:  
+  - `planning/cavern_and_cave_model.md`  
+  - `planning/planning_parliament.md`  
 
 ---
 

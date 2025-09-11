@@ -16,7 +16,6 @@ python main.py   # launch the lab, pull the first lever
 
 ## Folder Map
 
-```text
 📁 making_friends_0/
 ├── README.md                  # orientation & quickstart
 ├── main.py                    # game loop: menus, levers, interactions
@@ -44,7 +43,6 @@ python main.py   # launch the lab, pull the first lever
     ├── mythic_ladder_of_cybergods.md
     ├── valiant_citadel.md
     └── foundation_of_shagi.md
-```
 
 Add new friends by copying `friends/f00_grumble/` to `friends/fXX_name/` and editing the json/txt.
 
@@ -89,3 +87,5 @@ Run `.\make_zips.ps1` to build:
 - `foundations_and_roles.md`  
 - `creative_ecosystem_ai.md`  
 - `valiant_citadel.md`  
+- `planning/charter_of_the_poles.md` ← planetary governance charter (Planner & Whitecoat poles)  
+- `planning/cavern_and_cave_model.md` ← canonical cavern & cave structure
