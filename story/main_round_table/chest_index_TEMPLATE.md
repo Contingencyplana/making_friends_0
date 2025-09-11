@@ -6,13 +6,13 @@ This index lists what currently sits in the Chair’s compartments.
 
 ## Left Arm Chest — Governance (Parliament)
 - **DR-YYYYMMDD-#### — _[Short Title]_**  
-  ↳ `planning_parliament/DR-YYYYMMDD-####.md`
+  ↳ `planning/DR-YYYYMMDD-####.md`
 - **PROPOSAL-YYYYMMDD-slug — _[Short Title]_**  
-  ↳ `planning_parliament/PROPOSAL-YYYYMMDD-slug.md`
+  ↳ `planning/PROPOSAL-YYYYMMDD-slug.md`
 - **MOTION-YYYYMMDD-slug — _[Short Title]_**  
-  ↳ `planning_parliament/MOTION-YYYYMMDD-slug.md`
+  ↳ `planning/MOTION-YYYYMMDD-slug.md`
 - **MINUTES-YYYYMMDD**  
-  ↳ `planning_parliament/MINUTES-YYYYMMDD.md`
+  ↳ `planning/MINUTES-YYYYMMDD.md`
 
 ## Right Arm Chest — Local Notices
 - **Door Notice — [Cave Name]**  
@@ -31,7 +31,7 @@ This index lists what currently sits in the Chair’s compartments.
 
 ## (Optional) Footlocker — Archive
 - **Superseded:** DR-YYYYMMDD-#### → superseded by DR-YYYYMMDD-####  
-  ↳ `planning_parliament/archive/DR-YYYYMMDD-####.md`
+  ↳ `planning/archive/DR-YYYYMMDD-####.md`
 - **Retired Notice:** Door Notice — [Old Cave]  
   ↳ `archive/[old-cave]/door_notice-YYYYMMDD.md`
 

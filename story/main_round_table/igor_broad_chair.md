@@ -4,7 +4,7 @@ The Broad Chair sits at the Round Table’s head. Its **two arm-chests** safegua
 
 - **Left Arm Chest — Governance**  
   Holds the Parliament’s scrolls: **Proposals**, **Motions**, **Decision Records (DRs)**, and **Minutes**.
-  - Path anchor: `planning_parliament/`
+  - Path anchor: `planning/`
   - Examples: `DR-YYYYMMDD-####.md`, `PROPOSAL-YYYYMMDD-slug.md`, `MINUTES-YYYYMMDD.md`
 
 - **Right Arm Chest — Local Notices**  
@@ -14,11 +14,11 @@ The Broad Chair sits at the Round Table’s head. Its **two arm-chests** safegua
 
 > Optional compartments (added only when needed):
 > - **Seat Drawer — Releases Ledger** (`releases/`): version notes, artifact hashes, DR references.
-> - **Footlocker — Archive** (`planning_parliament/archive/`, `archive/`): superseded DRs, retired notices.
+> - **Footlocker — Archive** (`planning/archive/`, `archive/`): superseded DRs, retired notices.
 
 ## Using the Chair in Story
 - Scrolls are **referenced by ID** (e.g., *“See **DR-2025xxxx-0007** in the Left Arm Chest”*).
 - Notices name **caves and tasks** (e.g., *“Door Notice — Build Distributable Zips”*).
-- Round Table scenes include a short **Chest Index** page (see `chest_index.md`) kept beside the Chair.
+- Round Table scenes include a short **Chest Index** page (see `chest_index_TEMPLATE.md`) kept beside the Chair.
 
 *Everything here is “real” in the world and also links to the actual files.*
