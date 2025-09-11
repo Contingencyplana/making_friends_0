@@ -40,8 +40,9 @@ function Safe-Compress {
       if ($RelativeRoot) {
         Push-Location $RelativeRoot
         try {
+          # Always resolve paths relative to RelativeRoot so folder hierarchy is preserved
           $relPaths = $Path | ForEach-Object {
-            Resolve-Path -Relative -LiteralPath $_
+            [IO.Path]::GetRelativePath($RelativeRoot, $_)
           }
           Compress-Archive -Path $relPaths -DestinationPath $tmp -Force -CompressionLevel Optimal
         } finally {
@@ -294,7 +295,9 @@ if (-not $sourceFiles) {
   Write-Warning "No source files found for snapshot; skipping source zip."
 } else {
   $SourceZip = Join-Path $DistDir "${ProjectName}_source_${ts}.zip"
-  Safe-Compress -Path ($sourceFiles | Select-Object -ExpandProperty FullName) -DestinationPath $SourceZip
+  Safe-Compress -Path ($sourceFiles | Select-Object -ExpandProperty FullName) `
+                -DestinationPath $SourceZip `
+                -RelativeRoot $RepoRoot
   Write-Host "`nBuilt source snapshot:`n  $SourceZip"
 }
 
@@ -313,6 +316,7 @@ $curated = @(
   'README.md',
   'story.md',
   'LICENSE',
+  'planning',
   'scripts',
   'friends'
 )
@@ -339,7 +343,10 @@ Get-ChildItem -Path (Join-Path $staging 'friends') -Recurse -Include *.txt -Erro
   Remove-Item -Force -ErrorAction SilentlyContinue
 
 $ReleaseZip = Join-Path $ReleasesDir ("${ProjectName}_${ts}.zip")
-Safe-Compress -Path (Get-ChildItem -LiteralPath $staging -Recurse -File | Select-Object -ExpandProperty FullName) -DestinationPath $ReleaseZip
+Safe-Compress -Path (Get-ChildItem -LiteralPath $staging -Recurse -File | Select-Object -ExpandProperty FullName) `
+              -DestinationPath $ReleaseZip `
+              -RelativeRoot $staging
+
 Remove-Item $staging -Recurse -Force
 
 Write-Host "`nBuilt curated distributable:"
