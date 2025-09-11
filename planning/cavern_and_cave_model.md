@@ -24,7 +24,7 @@ This file defines the canonical structure for **caverns** (VS Code workspaces) a
 
 ## 3. Exception Model — `making_friends_0`
 - **Main Cavern (repo root)**: day-to-day work (planning, friends, tests, scripts, zips).
-- **Planning Parliament Cavern**: high-level planning, charters, motions, decisions. (Opens off Main cavern.)
+- **Planning Parliament Cavern**: high-level planning, charters, motions, decisions.
 - Rationale: `making_friends_0` sets the pattern for all other workspaces.
 
 ---
