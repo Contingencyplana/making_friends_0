@@ -25,17 +25,31 @@ New-Item -ItemType Directory -Force -Path $DistDir     | Out-Null
 New-Item -ItemType Directory -Force -Path $ReleasesDir | Out-Null
 
 # --- helpers ---
+
 function Safe-Compress {
   param(
     [Parameter(Mandatory=$true)][string[]]$Path,
-    [Parameter(Mandatory=$true)][string]$DestinationPath
+    [Parameter(Mandatory=$true)][string]$DestinationPath,
+    [string]$RelativeRoot
   )
   $attempt = 0
   $tmp = Join-Path $env:TEMP ([IO.Path]::GetFileNameWithoutExtension($DestinationPath) + ".tmp.zip")
   if (Test-Path $tmp) { Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue }
   while ($true) {
     try {
-      Compress-Archive -Path $Path -DestinationPath $tmp -Force -CompressionLevel Optimal
+      if ($RelativeRoot) {
+        Push-Location $RelativeRoot
+        try {
+          $relPaths = $Path | ForEach-Object {
+            Resolve-Path -Relative -LiteralPath $_
+          }
+          Compress-Archive -Path $relPaths -DestinationPath $tmp -Force -CompressionLevel Optimal
+        } finally {
+          Pop-Location
+        }
+      } else {
+        Compress-Archive -Path $Path -DestinationPath $tmp -Force -CompressionLevel Optimal
+      }
       break
     } catch {
       $attempt++
@@ -226,9 +240,9 @@ $includeFiles = Get-ChildItem -LiteralPath $RepoRoot -Recurse -File -Force | Whe
   return $true
 }
 
-Safe-Compress -Path ($includeFiles | Select-Object -ExpandProperty FullName) -DestinationPath $LatestZip
-
-# --- keep only latest + most recent dated (CLEAN zips only) ---
+Safe-Compress -Path ($includeFiles | Select-Object -ExpandProperty FullName) `
+              -DestinationPath $LatestZip `
+              -RelativeRoot $RepoRoot
 $keptDated = Prune-CleanZips -DistDir $DistDir -BaseName $BaseName
 Write-Host "DONE. Kept exactly two clean zips in dist/:"
 Write-Host "  - $([System.IO.Path]::GetFileName($LatestZip))"
