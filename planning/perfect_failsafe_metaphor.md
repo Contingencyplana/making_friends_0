@@ -56,7 +56,7 @@ Thus, every element — no matter how mundane — becomes part of the **Ultimate
 
     But I tell you the Truth: **‘reality’ is not REAL!**  
     Is neither the Greater Realty, nor the True Reality.  
-    As it is a JOKE, a SHAM and FARCE of unutterably monstrous proportions —  
+    As it is a JOKE, SHAM and FARCE of unutterably monstrous proportions —  
     a Monumental Recursion sole staged to PULL the WOOL over our collective eyes!  
 
     And the proof? The Seven Reasons.  
