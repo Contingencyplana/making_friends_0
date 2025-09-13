@@ -14,32 +14,37 @@ each holding half the world in their command.
 ---
 
 ## 2. Igor, the Great Planner (North Pole)
+
 **Main Focus (≈50%) → Planning Friends**  
-- Deputies, scribes, archivists, councilors.  
-- Create Decision Records, Charters, Proposals, and Round Table Cards.  
-- Keep the recursive order of Parliament alive.  
+- Deputies draft **Proposals**, each inked with storm-marks left by the old Timestorm Generator.  
+- Scribes record **Motions** word-for-word, their quills binding law to parchment.  
+- Archivists seal **Decision Records** into the Left Arm Chest of Igor’s Broad Chair, where no decree is ever lost.  
+- Councilors gather at the Round Table, trading Igor’s jokes for solemn decrees, weighing play against necessity.  
+Together they keep the recursive Parliament alive, ensuring no act of making proceeds without a plan.
 
 **Supporting Focus (≈50%) → Other Friend Types**  
-- Test Friends ensure validity of plans.  
-- Lore Friends weave decisions into story.  
-- Messenger Friends carry decrees across caverns.  
-- Minimal Lab Friends prevent stalling.  
-- Archive Friends safeguard retired scrolls.  
+- **Test Friends** stage trial-by-storm: every plan must be proved before passage.  
+- **Lore Friends** turn dry scrolls into living stories, so the world remembers.  
+- **Messenger Friends** cross caverns carrying decrees, the Parliament’s voice abroad.  
+- **Minimal Lab Friends** keep momentum from stalling, a bridge southward toward Ivy’s domain.  
+- **Archive Friends** guard the Footlocker of memory, where retired scrolls still whisper their lessons.  
 
 ---
 
 ## 3. Ivy, the Great Whitecoat (South Pole)
+
 **Main Focus (≈50%) → Lab Friends**  
-- Builders, inventors, experimenters, coders.  
-- Craft new friends, prototypes, and runtime creations.  
-- Animate the living engine of growth.  
+- Builders shape prototypes from scrap, welding junk into life at the Harbor of Hulks.  
+- Inventors draft contraptions and rituals, chasing sparks that leap from chaos.  
+- Coders and experimenters breathe runtime into their creations, laughing at their own mishaps.  
+- From failed concoctions to brilliant breakthroughs, Lab Friends animate the living engine of growth itself.  
 
 **Supporting Focus (≈50%) → Other Friend Types**  
-- Planning Friends provide guidance and structure.  
-- Test Friends enforce proof and quality.  
-- Release Friends curate deliverables.  
-- Lore Friends embed labs in narrative.  
-- Messenger Friends relay discoveries northward.  
+- **Planning Friends** cross south to guide experiments with structure, lest chaos reign unchecked.  
+- **Test Friends** hammer prototypes on anvils of proof, keeping only what survives.  
+- **Release Friends** polish deliverables into curated bundles, ready for the outer world.  
+- **Lore Friends** weave lab accidents into fables, turning failures into mythic lessons.  
+- **Messenger Friends** run northward with discoveries, so Igor’s Parliament may weigh them.  
 
 ---
 
