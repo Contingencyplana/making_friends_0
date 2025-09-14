@@ -1,0 +1,67 @@
+# 16 sub-choices for Genesis of Igor.
+# Keep each 'id' stable; 'text' is what players see; 'effect' is what the router handles.
+
+choices:
+  - id: igor_first_word
+    text: "Igor blinks and whispers, 'Y-yes, Master?'"
+    effect: igor_first_word
+
+  - id: lamp_circles
+    text: "A pale moth writes circles on the lamp; Igor copies the motion."
+    effect: mimic_moth
+
+  - id: miscount_sparks
+    text: "Grumble miscounts the sparks; Igor corrects him cheerfully."
+    effect: spark_count_fix
+
+  - id: crooked_bow
+    text: "Igor bows too low, knocks a tray, and invents a rhythm."
+    effect: tray_rhythm
+
+  - id: name_question
+    text: "“What am I called?” Igor asks, eyes bright."
+    effect: name_seed
+
+  - id: joke_spills
+    text: "A joke spills out of him before he knows why."
+    effect: first_joke
+
+  - id: prophecy_tap
+    text: "The tapping heart echoes a pattern only Igor seems to hear."
+    effect: prophecy_tap
+
+  - id: moth_friend
+    text: "He befriends the moth, appointing it Deputy of Lamps."
+    effect: deputy_of_lamps
+
+  - id: strap_knot
+    text: "He unties a knot no one taught him to untie."
+    effect: knot_skill
+
+  - id: bell_remember
+    text: "An old bell remembers storms; Igor hears a plan in it."
+    effect: bell_plan
+
+  - id: green_lens
+    text: "Through a broken lens, everything becomes green and possible."
+    effect: green_possible
+
+  - id: sea_in_head
+    text: "He sways as if aboard a ship he has never sailed."
+    effect: harbor_call
+
+  - id: notebook_weight
+    text: "The Doctor’s notebook grows heavier in his presence."
+    effect: weight_of_plans
+
+  - id: copper_hand
+    text: "He reaches for the copper switch… then pauses, grinning."
+    effect: timing_gag
+
+  - id: dust_winter
+    text: "Dust tastes like last winter; he decides to improve next one."
+    effect: winter_improve
+
+  - id: yes_master
+    text: "He chirps, 'Yes, Master!' — and means it, for now."
+    effect: yes_master
