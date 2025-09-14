@@ -26,3 +26,12 @@ MAIN_CHOICES = [
     "Dust tastes like last winter.",
     "The Lonely Doctor meditates.",  # meta lever (Save/Quit/Return)
 ]
+
+# Transitional Stage routing hints (keep MAIN_CHOICES text unchanged)
+TRANSITIONAL_SLOTS = {
+    "A second heart taps once, then waits.": "T1_GENESIS_OF_IGOR",
+    "The sea rehearses thunder.": "T2_TEAM_OF_FOUR_AND_HARBOR",
+    "A broken lens dreams in green.": "T3_FURNITURE_AND_FIRST_PLANNERS",
+    "Your notebook grows heavier.": "T4_SCALING_CYCLES",
+}
+META_SLOT = "The Lonely Doctor meditates."
