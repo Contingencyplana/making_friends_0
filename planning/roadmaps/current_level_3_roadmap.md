@@ -1,7 +1,7 @@
 # Current Level 3 Roadmap — Notes (Motion 1.1.1: Genesis of Igor)
 
 - **Step 1.1.1.1 — The Storm Table**  
-  Status: complete (draft merged)  
+  Status: complete (merged)  
   Note: planning/roadmaps/notes/step_1_1_1_1_storm_table.md
 
 - **Step 1.1.1.2 — Igor Awakens**  
