@@ -1,11 +1,12 @@
 # Current Level 3 Roadmap — Notes (Motion 1.1.1: Genesis of Igor)
 
 - **Step 1.1.1.1 — The Storm Table**  
-  Status: drafting (active)  
+  Status: complete (merged)  
   Note: planning/roadmaps/notes/step_1_1_1_1_storm_table.md
 
 - **Step 1.1.1.2 — Igor Awakens**  
-  Status: pending
+  Status: drafting (active)  
+  Note: planning/roadmaps/notes/step_1_1_1_2_igor_awakens.md
 
 - **Step 1.1.1.3 — The Lever Slotting Plan**  
   Status: pending
