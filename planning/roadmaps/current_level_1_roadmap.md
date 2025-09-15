@@ -40,3 +40,13 @@
 - **Step 7. The Synergists**  
   - Step 7.1 → `making_friends_20`: **Synergy Studio Face** — weaving ventures into ecosystems.  
   - Step 7.2 → `making_friends_21`: **Synergyscape Face** — the federated network of networks.  
+
+- **Step 8. The Launchers**  
+  - Step 8.1 → `making_friends_22`: **Client Face** — preparing the playable client.  
+  - Step 8.2 → `making_friends_23`: **Commercial Launch Face** — scaling outward, launch & GTM.  
+
+---
+
+### Notes
+- Work on the **game client** (Step 8.1) should begin as soon as a **playable prototype** is available.  
+- **Commercial launch** (Step 8.2) may be accelerated if community interest and readiness warrant it.  
