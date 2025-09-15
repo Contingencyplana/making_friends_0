@@ -10,7 +10,7 @@ In the walls of the house — the Circular Chamber included — the Timestorm Ge
 It is far bigger inside than out, its coils and gears intermeshing in endless intricacy, lancing deep beneath the foundations.  
 The house itself is only the jewel at the tip of its sceptre, as the machine pulls bolt after colossal bolt of thunder down from the black ring of sky — the eye of the hemisphere-wide hurricane overhead — one of two vast tempests that sandwich a narrow band of habitable calm along the equator.
 
-The Timestorm Generator crowns and pins the high hill at the heart of the isle like a bug beneath glass, standing at the center of a hemisphere-wide hurricane and the branching timelines of the Great Timestorm.
+The Timestorm Generator crowns and pins the honeycombed high hill at the heart of the isle like a bug beneath glass, standing at the center of a hemisphere-wide hurricane and the branching timelines of the Great Timestorm.
 Black walls of cloud tower to the upper edge of the stratosphere, and a vacuum like the void of space must be held at bay by windows and doors sealed tight as those of a spacecraft.
 
 The Doctor lingers here, alone, counting mistakes like stars revolving around the polestar.
