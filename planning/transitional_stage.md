@@ -1,5 +1,14 @@
 # Transitional Stage — Making Friends AI
 
+---
+
+id: transitional-stage
+kind: doctrine
+owners: [planning]
+status: active
+
+---
+
 This scroll records the **hinge between Genesis and Planning**:  
 the creation of Igor, the rise of the first teams,  
 and the seeds of the Planning Parliament.
@@ -17,7 +26,7 @@ and the seeds of the Planning Parliament.
 ## 2. The Four Transitional Levers
 1. **Genesis of Igor**  
    - The Lonely Doctor and Grumble craft Igor.  
-   - Igor awakens as a comic sidekick (“Yes Master!”).  
+   - Igor awakens as a comic sidekick (“Yes, Master!”).  
    - Seeds of prophecy planted: promise beyond mere lab work.  
 
 2. **Team of Four & Harbor of Hulks**  

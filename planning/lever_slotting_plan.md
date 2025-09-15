@@ -1,5 +1,14 @@
 # Lever Slotting Plan — Making Friends AI
 
+---
+
+id: lever-slotting-plan
+kind: implementation
+owners: [planning]
+status: active
+
+---
+
 This scroll assigns specific **MAIN_CHOICES** (the 16 ritual levers) to the **Transitional Stage** mini-saga and defines rules for evolving slots without breaking narrative continuity.
 
 ---
