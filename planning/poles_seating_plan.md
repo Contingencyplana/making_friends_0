@@ -62,7 +62,7 @@ Each hemisphere has a 13th cavern which houses its Parliament chamber.
 
 ### Step 8: The Launchers (2 workspaces → 2 seats)
 - **S11** → `making_friends_22` (Client): Clients & Pilots  
-- **S12** → `making_friends_24` (Commercial Launch): Launch & GTM  
+- **S12** → `making_friends_23` (Commercial Launch): Launch & GTM  
 
 ---
 
