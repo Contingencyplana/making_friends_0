@@ -79,6 +79,40 @@ This zip contains the full tracked repo at HEAD (planning/, story/, etc.).
 Upload this one for GPT review.
 "@ | Set-Content -Encoding UTF8 -LiteralPath $manifestPath
 
+# --- Prune assistant zips: keep exactly two (latest + newest dated) ---
+$assistantBase = "${ProjectName}_assistant"
+$assistantLatestName = "${assistantBase}_latest.zip"
+
+# Gather dated assistant zips (exclude _latest.zip)
+$datedAssistant = Get-ChildItem -LiteralPath $DistDir -File -ErrorAction SilentlyContinue |
+  Where-Object {
+    $_.Name -like "${assistantBase}_*.zip" -and $_.Name -ne $assistantLatestName
+  }
+
+if ($datedAssistant) {
+  # Sort by timestamp embedded in name (yyyy.MM.dd-HHmmss), fall back to LastWriteTimeUtc
+  $rx = "^{0}_(\d{{4}}\.\d{{2}}\.\d{{2}}-\d{{6}})\.zip$" -f [regex]::Escape($assistantBase)
+  $datedWithKeys = foreach ($f in $datedAssistant) {
+    $base = [IO.Path]::GetFileNameWithoutExtension($f.Name)
+    $ts = $null
+    if ($base -match $rx) { $ts = [datetime]::ParseExact($Matches[1], 'yyyy.MM.dd-HHmmss', $null) }
+    [pscustomobject]@{ File=$f; SortKey=($ts ?? $f.LastWriteTimeUtc) }
+  }
+
+  $sorted = $datedWithKeys | Sort-Object SortKey -Descending
+  $keepNewestDated = $sorted | Select-Object -First 1
+  $toDelete = $sorted | Select-Object -Skip 1
+
+  foreach ($item in $toDelete) {
+    try {
+      Remove-Item -LiteralPath $item.File.FullName -Force -ErrorAction Stop
+      Write-Host "Pruned old assistant zip: $($item.File.Name)"
+    } catch {
+      Write-Warning "Could not remove $($item.File.Name): $($_.Exception.Message)"
+    }
+  }
+}
+
 # --- 2) Curated distributable (releases/) ---
 $ts = $timestamp
 $staging = Join-Path $DistDir ("staging_" + $ts)
