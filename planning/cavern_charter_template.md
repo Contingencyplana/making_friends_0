@@ -3,11 +3,11 @@
 ## Identity
 - **Cavern Name:** [Name of this workspace, e.g., *making_friends_1*]  
 - **Type:** [Planning Workspace | Build/Runtime Workspace]  
-- **Deputy Planner:** [Name/role of liaison to Planning Parliament, if any]  
+- **Workspace Deputy:** [Name/role of liaison to Planning Parliament, if any]  
 
 ## Round Table
 - Purpose: [One-line purpose of this cavern]  
-- Chairs: [List cave leaders who hold a “seat” at this round table]  
+- Chairs: [List Cave Captains who hold a “seat” at this round table]  
 
 ## Ring of Caves
 - Entrances (caves):  
@@ -25,4 +25,3 @@
 ---
 
 *This charter ensures every cavern is consistent, while allowing local identity.*
-

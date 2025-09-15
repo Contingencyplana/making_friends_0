@@ -39,7 +39,7 @@ This scroll defines the canonical structure for **caverns** (VS Code workspaces)
 **Workspace Cavern (one per seat)**  
 - **Workspace Captain** — runs day-to-day across all caves that feed this workspace  
 - **Workspace Deputy** — backup, escalations  
-- **Workspace Planner** — the workspace’s voting seat in Parliament (sits in the parliamentary cavern)  
+- **Workspace Planner** — the workspace’s voting seat in Parliament (sits in the Parliamentary cavern)  
 - **Quality/Test Marshal** *(optional)* — standards, gates, sign-offs  
 - **Release Keeper** *(optional)* — release windows, cutovers
 

@@ -32,7 +32,7 @@ Every chest, scroll, and round table card belongs inside the story.
 
 ## 4. Symbolism
 - **Great Chair of Igor:** its arms are chests holding planning scrolls.  
-- **Round Table:** not just furniture, but the living hub of cave leaders.  
+- **Round Table:** not just furniture, but the living hub of cave captains.  
 - **Parliament Scrolls:** charters and DRs, stamped with seals, carried in story scenes.  
 - **Harbor of Hulks:** junk of the past re-forged into the furniture of planning, and later, ships of departure.  
 
