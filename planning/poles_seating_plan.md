@@ -61,8 +61,8 @@ Each hemisphere has a 13th cavern which houses its Parliament chamber.
 - **S10** → `making_friends_21`: Synergyscape Face  
 
 ### Step 8: The Launchers (2 workspaces → 2 seats)
-- **S11** → Step 8.1 (Client): Clients & Pilots  
-- **S12** → Step 8.2 (Commercial Launch): Launch & GTM  
+- **S11** → `making_friends_22` (Client): Clients & Pilots  
+- **S12** → `making_friends_24` (Commercial Launch): Launch & GTM  
 
 ---
 
