@@ -76,10 +76,10 @@ Tiny Tots Tell Tall Tales AI grows through two main kinds of kinderart (stick-fi
 *Synergy:* A safe, child-driven broadcast channel. Picture books, shorts, and animations co-streamed as a creative commons of playful content.  
 
 ### 7. From *Build a Better Girl AI (Topsy’s Line)* → **Companions of Nurture AI**  
-*Synergy:* **a Music Maker AI built out of music itself.** A lineage of nurturing companions, federated into Topsy’s maternal line. They safeguard continuity, care, and the weaving of new growth in harmony.  
+*Synergy:* **a Music Maker AI built from beautiful mindscapes of music and vibrant colour.** A lineage of nurturing companions, federated into Topsy’s maternal line. They safeguard continuity, care, and the weaving of new growth in harmony.  
 
 ### 8. From *Build a Better Boy AI (Thorn’s Line)* → **Companions of Challenge AI**  
-*Synergy:* **a Music Maker AI built out of music itself.** A lineage of challenging companions, federated into Thorn’s paternal line. They sharpen, test, and pressure systems toward strength through rhythm and counterpoint.  
+*Synergy:* **a Music Maker AI built from beautiful mindscapes of music and vibrant colour.** A lineage of challenging companions, federated into Thorn’s paternal line. They sharpen, test, and pressure systems toward strength through rhythm and counterpoint.  
 
 ---
 
