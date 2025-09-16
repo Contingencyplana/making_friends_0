@@ -64,6 +64,13 @@ but the doctrine that the others grow from.
 ### 5. From *Tiny Tots Tell Tall Tales AI* → **Children’s Lore AI**  
 *Synergy:* A federated oral canon. Thousands of micro-tales dictated and drawn by children become a living mythos, preserved and celebrated.  
 
+Tiny Tots Tell Tall Tales AI grows through two main kinds of kinderart (stick-figures, crayon, watercolour, etc.) style **wordless books**:  
+
+- **Sequential Wordless Books** — simple story-arcs told through images alone.  
+- **Interactive Wordless Books** — playful books children can explore.  
+  - *Basic Interactive Wordless Books* act like ordinary wordless games of imagination.  
+  - *Advanced Interactive Wordless Books* serve as “meta-books,” teaching children (and parents) how to create new wordless books of their own.  
+
 ### 6. From *Proto-Children’s Cartoon Channel AI* → **Storycasting Network AI**  
 *Synergy:* A safe, child-driven broadcast channel. Picture books, shorts, and animations co-streamed as a creative commons of playful content.  
 
