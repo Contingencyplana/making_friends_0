@@ -51,13 +51,13 @@ Thus, it is foundation, genesis and guide: the scrolls that accompany it preserv
 but the doctrine that the others grow from.  
 
 ### 2. From *Supreme Simplicity AI* → **Clarity Compass AI**  
-*Synergy:* A living design doctrine embedded in every system. Detects creeping complexity and prunes it, ensuring joy and ease scale with growth.  
+*Synergy:* **Interactive Picture Books with words**, embodying a living design doctrine in every system. Detects creeping complexity and prunes it, ensuring joy and ease scale with growth.  
 
 ### 3. From *Proto-Lucid Armada AI* → **Lucid Fleet AI**  
-*Synergy:* A fully operational armada of orchestrators. Each “ship” manages clarity in one domain, together outcompeting labyrinths everywhere.  
+*Synergy:* **Interactive Picture Books with words**, taking the form of a fully operational armada of orchestrators. Each “ship” manages clarity in one domain, together outcompeting labyrinths everywhere.  
 
 ### 4. From *Proto-TONS-of-FUN AI* → **FUN Continuum AI**  
-*Synergy:* A network of books, games, and worlds united by the same principle: fun first. Grows from interactive page → picture book → FUN Factory → federation of joyful play.  
+*Synergy:* **Interactive Picture Books with words**, unfolding as a network of books, games, and worlds united by the same principle: fun first. Grows from interactive page → picture book → FUN Factory → federation of joyful play.
 
 ---
 
@@ -69,6 +69,7 @@ Tiny Tots Tell Tall Tales AI grows through two main kinds of kinderart (stick-fi
 - **Sequential Wordless Books** — simple story-arcs told through images alone.  
 - **Interactive Wordless Books** — playful books children can explore.  
   - *Basic Interactive Wordless Books* act like ordinary wordless games of imagination.  
+  - *Intermediate Interactive Wordless Books* function as the supremely simple outer mindscape of Tiny Tots Tell Tall Tales AI.  
   - *Advanced Interactive Wordless Books* serve as “meta-wordless-books,” teaching children (and parents) how to create new wordless books of their own.  
 
 ### 6. From *Proto-Children’s Cartoon Channel AI* → **Storycasting Network AI**  
