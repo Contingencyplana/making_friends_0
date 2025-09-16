@@ -70,7 +70,7 @@ Tiny Tots Tell Tall Tales AI grows through two main kinds of kinderart (stick-fi
 - **Interactive Wordless Books** — playful books children can explore.  
   - *Basic Interactive Wordless Books* act like ordinary wordless games of imagination.  
   - *Intermediate Interactive Wordless Books* function as the supremely simple outer mindscape of Tiny Tots Tell Tall Tales AI.  
-  - *Advanced Interactive Wordless Books* serve as “meta-wordless-books,” teaching children (and parents) how to create new wordless books of their own.  
+  - *Advanced Interactive Wordless Books* serve as “meta-wordless-books,” teaching children, parents and Tiny Tots Tell Tall Tales AI how to create new wordless books of their own.  
 
 ### 6. From *Proto-Children’s Cartoon Channel AI* → **Storycasting Network AI**  
 *Synergy:* A safe, child-driven broadcast channel. Picture books, shorts, and animations co-streamed as a creative commons of playful content.  
