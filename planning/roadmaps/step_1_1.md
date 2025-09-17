@@ -1,4 +1,4 @@
-# Current Level 2 Roadmap — Step 1.1 (Igor’s Awakening)  
+# Step 1.1 (Igor’s Awakening)  
 *Maintained by the Planning Friends in Igor’s Chest.*  
 
 ---
