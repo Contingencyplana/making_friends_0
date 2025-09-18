@@ -13,7 +13,8 @@ try:
 except Exception:  # optional dep; fallback to json if needed
     yaml = None  # will guard at runtime
 
-from story.transitional.genesis_of_igor.router_stub import route_genesis_of_igor
+
+from main.routing import route_selection
 
 
 def _load_genesis_choices_map() -> dict[str, str]:
@@ -64,35 +65,20 @@ def main() -> None:
 
         if sel.isdigit():
             n = int(sel)
-            if 1 <= n <= 15:
-                choice_text = MAIN_CHOICES[n - 1]
+            status = route_selection(n, MAIN_CHOICES)
 
-                # Handle Transitional Stage routing, keeping MAIN_CHOICES untouched
-                slot = TRANSITIONAL_SLOTS.get(choice_text)
-                if slot == "T1_GENESIS_OF_IGOR":
-                    # Build a text->effect map and prompt for one of the 16 sub-choices
-                    tmap = _load_genesis_choices_map()
-                    if tmap:
-                        clear()
-                        print("Genesis of Igor — Choose a moment:")
-                        sub_choices = list(tmap.keys())
-                        for i, ch in enumerate(sub_choices, 1):
-                            print(f" {i:2d}. {ch}")
-                        ans = input("> ").strip()
-                        if ans.isdigit() and 1 <= int(ans) <= len(sub_choices):
-                            picked = sub_choices[int(ans) - 1]
-                            effect_id = tmap[picked]
-                            clear()
-                            scene = route_genesis_of_igor(effect_id)
-                            print(scene)
-                            input("\n(press Enter to return to the console)")
-                            clear()
-                            continue
-                    # If no YAML or invalid selection, just fall through to friend loop
-                
-                # Default behavior (existing friend loop)
-                friend = choose_friend()
-                speak(friend)
+            if status == "SCENE_RAN":
+                # we returned from a transitional scene; continue menu loop
+                pass
+            elif status == "META":
+                # call my Save/Quit/Return flow, then resume menu
+                # TODO: replace with the real meta handler if it exists (e.g., handle_meta())
+                meditation_menu(on_save=save_state)
                 continue
+            else:
+                # status in ("INVALID", "NO_ROUTE"): print a short friendly message and re-prompt
+                print("That lever isn’t available yet. Try another.")
+                # re-prompt by continuing the loop
+            continue
 
         print("Please choose a lever number (1–16).")
