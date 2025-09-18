@@ -1,4 +1,4 @@
-# Lever Slotting Plan — Making Friends AI
+# Lever Slotting Plan — Canonical Implementation
 
 ---
 

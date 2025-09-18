@@ -1,4 +1,4 @@
-# Step 1.1.1.3 — The Lever Slotting Plan
+# Step 1.1.1.3 — The Lever Slotting Plan (Narrative Rationale)
 
 ---
 
