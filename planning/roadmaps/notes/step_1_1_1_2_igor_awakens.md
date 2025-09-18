@@ -1,13 +1,15 @@
+# Step 1.1.1.2 — Igor Awakens
+
 ---
+
 id: step-1-1-1-2-igor-awakens
 kind: roadmap-note
 owners: [planning]
-status: drafting
+status: complete
 parent: step-1-1-1-genesis-of-igor
 level: 3
----
 
-# Step 1.1.1.2 — Igor Awakens
+---
 
 **Narrative beat:**  
 A spark jumps, the husk twitches. Igor sits upright, blurts out his first comic line —  
