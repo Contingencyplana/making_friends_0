@@ -19,12 +19,13 @@ parent: 1.1.1
   Note: planning/roadmaps/notes/step_1_1_1_2_igor_awakens.md
 
 - **Step 1.1.1.3 — The Lever Slotting Plan**  
-  Status: drafting (active)  
+  Status: complete (merged)  
   Note: planning/roadmaps/notes/step_1_1_1_3_lever_slotting_plan.md
   See also: planning/lever_slotting_plan.md (canonical assignments & guardrails)
 
-- **Step 1.1.1.4 — First Routing Ritual**  
-  Status: pending
+- **Step 1.1.1.4 — First Routing Ritual**
+  Note: planning/roadmaps/notes/step_1_1_1_4_lever_slotting_plan.md
+  Status: active
 
 - **Step 1.1.1.5 — Closing Beat**  
   Status: pending

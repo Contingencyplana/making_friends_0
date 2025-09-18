@@ -5,7 +5,7 @@
 id: lever-slotting-plan
 kind: implementation
 owners: [planning]
-status: active
+status: complete
 
 ---
 
