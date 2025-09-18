@@ -24,8 +24,9 @@ parent: 1.1.1
   See also: planning/lever_slotting_plan.md (canonical assignments & guardrails)
 
 - **Step 1.1.1.4 — First Routing Ritual**
-  Note: planning/roadmaps/notes/step_1_1_1_4_lever_slotting_plan.md
-  Status: active
+  Note: planning/roadmaps/notes/step_1_1_1_4_first_routing_ritual.md
+  Status: complete (merged)
 
 - **Step 1.1.1.5 — Closing Beat**  
   Status: pending
+
