@@ -9,6 +9,8 @@
   The Doctor and Grumble craft Igor at the Storm Table.  
   Igor awakens with comic quirks, setting the tone for Parliament to come.  
   *(Scaffolded as Lever 1: intro scene, 16 sub-choices, router.)*  
+  Status: complete (merged)  
+  Note: planning/roadmaps/step_1_1_1.md
 
 - **Step 1.1.2 → First Words and Jokes**  
   Igor’s early sub-choices blossom into micro-scenes.  

@@ -5,8 +5,8 @@
 id: roadmap-l3-1.1.2
 kind: roadmap-note
 owners: [planning]
-status: drafting
-parent: 1.1
+status: active
+parent: roadmap-l3-1.1
 
 ---
 
@@ -37,10 +37,10 @@ Igor’s first words are small sparks in a stormy lab: gentle greetings, simple 
 - **Gate C:** Validate that nothing contradicts doctrine scrolls.
 
 ## Risks & Mitigations
-- **Risk:** Humor misread in text-only contexts.
-  - **Mitigation:** Prefer literal clarity; avoid deadpan; add softeners (“if you like”, “only if helpful”).
-- **Risk:** Overly sterile tone.
-  - **Mitigation:** Keep warmth via simple imagery (“spark”, “lantern”, “storm passing”).
+- **Risk:** Humor misread in text-only contexts.  
+  - **Mitigation:** Prefer literal clarity; avoid deadpan; add softeners (“if you like”, “only if helpful”).  
+- **Risk:** Overly sterile tone.  
+  - **Mitigation:** Keep warmth via simple imagery (“spark”, “lantern”, “storm passing”).  
 
 ---
 
