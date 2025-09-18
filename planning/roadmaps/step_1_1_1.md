@@ -28,5 +28,5 @@ parent: 1.1.1
   Status: complete (merged)
 
 - **Step 1.1.1.5 — Closing Beat**  
-  Status: pending
-
+  Note: planning/roadmaps/notes/step_1_1_1_5_closing_beat.md
+  Status: complete (merged)
