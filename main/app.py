@@ -1,19 +1,18 @@
 # C:\Users\Admin\making_friends_0\main\app.py
-from .constants import TITLE, MAIN_CHOICES, TRANSITIONAL_SLOTS
+from .constants import TITLE, MAIN_CHOICES
 from .ui import clear
 from .intro import show_intro
-from .friends import choose_friend
-from .speak import speak
 from .meditation import meditation_menu
 from .state import save_state
 from pathlib import Path
 import json
+
 try:
     import yaml  # type: ignore
 except Exception:  # optional dep; fallback to json if needed
     yaml = None  # will guard at runtime
 
-
+# Use absolute import so `python -m main.app` works reliably
 from main.routing import route_selection
 
 
@@ -41,6 +40,7 @@ def _load_genesis_choices_map() -> dict[str, str]:
             pass
     return {}
 
+
 def main() -> None:
     clear()
     print(TITLE)
@@ -54,6 +54,7 @@ def main() -> None:
 
         sel = input("> ").strip().lower()
 
+        # Legacy/alternate paths to meta
         if sel in ("q", "quit"):
             print("(Quit has moved into Meditation.)")
             meditation_menu(on_save=save_state)
@@ -63,22 +64,27 @@ def main() -> None:
             meditation_menu(on_save=save_state)
             continue
 
+        # Numeric selection → route via transitional router
         if sel.isdigit():
             n = int(sel)
             status = route_selection(n, MAIN_CHOICES)
 
             if status == "SCENE_RAN":
-                # we returned from a transitional scene; continue menu loop
-                pass
+                # returned from a transitional scene; loop continues
+                continue
             elif status == "META":
-                # call my Save/Quit/Return flow, then resume menu
-                # TODO: replace with the real meta handler if it exists (e.g., handle_meta())
+                # Save/Quit/Return flow, then resume menu
                 meditation_menu(on_save=save_state)
                 continue
             else:
-                # status in ("INVALID", "NO_ROUTE"): print a short friendly message and re-prompt
+                # ("INVALID" | "NO_ROUTE")
                 print("That lever isn’t available yet. Try another.")
-                # re-prompt by continuing the loop
-            continue
+                continue
 
         print("Please choose a lever number (1–16).")
+
+
+if __name__ == "__main__":
+    # Allow running as a script: `python .\main\app.py`
+    # Preferred is module form: `python -m main.app`
+    main()
