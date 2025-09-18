@@ -31,3 +31,7 @@ class UI:
         print(f"1) {yes_label}\n2) {no_label}")
         ans = input("> ").strip()
         return ans == "1"
+
+def clear():
+    import os
+    os.system("cls" if os.name == "nt" else "clear")
