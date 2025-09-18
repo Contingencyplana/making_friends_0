@@ -33,4 +33,9 @@ Seal the **Genesis of Igor** mini-arc with a short, playable beat:
 - Selecting T1 prints the end-cap line before returning
 - No change to routing; the menu continues to function
 
+## Validation
+- Run `python -m main.app`
+- Choose lever 1 → confirm the end-cap line prints
+- Ensure menu resumes normally afterward
+
 ---
