@@ -40,6 +40,8 @@
   The recursive balance with Ivy is foreshadowed.
 ---
 
+# Step 1 1
+
 ## Provenance
 - This roadmap lives in Igor’s planning chests (`planning/roadmaps/`).  
 - It details the motions beneath Step 1.1 of the Level 1 Roadmap.  

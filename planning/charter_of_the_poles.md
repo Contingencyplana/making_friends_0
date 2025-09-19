@@ -9,6 +9,8 @@
   Domain: friends, tests, runtime — the living engine of creation and growth.  
 ---
 
+# Charter Of The Poles
+
 ## 2. The North Pole — Realm of the Great Planner
 - **Planning Parliament of the North** sits at the pole, council of scrolls and deputies.  
 - Beneath it:  

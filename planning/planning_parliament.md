@@ -5,6 +5,8 @@
 - Preserve **traceable Decision Records (DRs)** for long-term provenance.  
 ---
 
+# Planning Parliament
+
 ## 2. Membership
 - **Workspace Planners**: each workspace nominates one planner.  
 - **Deputy Planners**: each cavern appoints a deputy to act as liaison.  

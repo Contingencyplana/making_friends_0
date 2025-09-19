@@ -5,6 +5,8 @@ owners: [planning]
 status: active
 ---
 
+# Transitional Stage
+
 This scroll records the **hinge between Genesis and Planning**:  
 the creation of Igor, the rise of the first teams,  
 and the seeds of the Planning Parliament.

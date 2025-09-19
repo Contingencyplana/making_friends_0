@@ -6,6 +6,8 @@ status: drafting
 parent: roadmap-l3-1.1.2  
 ---
 
+# Do
+
 ## Purpose
 Define **kind, safe, and readable** boundaries for Igor’s humor so jokes enhance clarity, never at the user’s expense, and always respect the **Perfect Failsafe Metaphor** and the **Standards Scroll**.
 
@@ -62,3 +64,4 @@ Define **kind, safe, and readable** boundaries for Igor’s humor so jokes enhan
 ---
 
 *A joke in the lab is a lantern, not lightning: small, warm, and easy to set down.*
+

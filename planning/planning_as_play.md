@@ -6,6 +6,8 @@
 - Provide a competitive edge: no other project dares to make planning itself a game.  
 ---
 
+# Planning As Play
+
 ## 2. Principles
 - **Immersion:** Planning artifacts appear as story objects — chests, scrolls, decrees.  
 - **Recursion:** Every decision document reflects and shapes the recursive structure of play.  

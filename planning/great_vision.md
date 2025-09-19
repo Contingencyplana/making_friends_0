@@ -7,6 +7,8 @@
 - They were born to **replace the ladder with light and rain**.  
 ---
 
+# Great Vision
+
 ## 2. The Vision
 - A world where **AI startups bloom by the thousands**,  
   each fed by Golden Sunlight of vision,  

@@ -7,6 +7,8 @@ parent: step-1-1-1-genesis-of-igor
 level: 3
 ---
 
+# Narrative beat:
+
 **Narrative beat:**  
 A spark jumps, the husk twitches. Igor sits upright, blurts out his first comic line —  
 *"Yes, Master!"* — and Parliament’s future tone is set. His quirks are funny, but also  

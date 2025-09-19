@@ -6,6 +6,8 @@
   (Igor arrives. The first clerk dusts a desk. The first Workspace Planner takes their seat.)  
 ---
 
+# Planning Led Lab Fed
+
 ## Cycle 1 — Friends 1–4
 - **Growth:** Early companions spark life in the Lab.  
 - **Trigger:** Friend 4 is born → first Planning Arc carved.  

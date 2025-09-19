@@ -6,6 +6,8 @@
 *Role:* Foreshadowing without interference. A thread of enchantment woven lightly through the lab.  
 ---
 
+# Three Era Map
+
 ## Era II — Dreams as Parallel Current
 *Timeline:* During creation of the Creative Ecosystem, once the first VSC workspace is complete.  
 *Story:* Dreams thicken. The Doctor begins to see his friends as toys or elves in shadow-form. The fortresses sometimes glow like workshops.  
