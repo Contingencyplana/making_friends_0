@@ -32,7 +32,7 @@ the Doctor’s arrival, Igor’s transition, and Ivy’s departure.
   - Yet once the Generator blazed, triumph soured: his once-adoring scavenger crews, weary of his **autocratic commands** and unnerved by his **monstrous experiments**, abandoned him. They left him the alien relics as his bitter share of the salvage — and withdrew in sturdy wooden submarines that slipped safely beneath the raging hurricane. Alone, the Doctor turned from the Harbor, trudging up through the **cave complex and honeycombed high hill**, into the very marrow of his storm-crowned **Polar Fortress**, until at last he sealed himself within the solitary sanctuary of his **Basement Laboratory**.
 
 - **Igor’s Transition:**  
-  - Igor, Grumble, and companions return here after the Doctor’s age.  
+  - Igor, Grumble, and companions return here after the Doctor’s Age.  
   - Hulks are scavenged to craft the **Round Table and chairs**.  
   - The Parliamentary Cavern (one of the thirteen) rises as their council chamber.  
 
