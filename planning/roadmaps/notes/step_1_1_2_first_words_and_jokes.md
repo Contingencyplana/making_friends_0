@@ -21,30 +21,31 @@ Igor’s first words are small sparks in a stormy lab: gentle greetings, simple 
 - Draft **mini promptlets** (ready phrases Igor can use in UI or logs).
 - Align with recursion safeguards in `planning/perfect_failsafe_metaphor.md`.
 
-**Out of Scope (for this note)**
+**Out of Scope**
 - Complex dialog trees.
 - Long-form story bits; keep it seed-level.
 
 ## Deliverables
-1. **Seed Lexicon v1** (short YAML list inside this note).
-2. **Humor Rails v1** (bullet list of do/do-not).
-3. **Mini Promptlets v1** (copy-pasta ready for future modules).
-4. **Guardrail Check**: references to `standards_scroll.md` and `perfect_failsafe_metaphor.md` included below.
+1. **Seed Lexicon v1** (YAML below).
+2. **Humor Rails v1** (do/do-not bullets).
+3. **Mini Promptlets v1** (copy-pasta for future modules).
+4. **Guardrail Check** against `standards_scroll.md` and `perfect_failsafe_metaphor.md`.
 
 ## Decision Gates
-- **Gate A:** Humor examples pass “kindness first, clarity second” review.
-- **Gate B:** All phrases provide a safe exit (“No thanks”, “Maybe later”) and encourage consent.
-- **Gate C:** Validate that nothing contradicts doctrine scrolls.
+- **Gate A:** Humor passes “kindness first, clarity second”.
+- **Gate B:** All phrases offer a safe exit (consent, opt-out).
+- **Gate C:** Nothing conflicts with doctrine scrolls.
 
 ## Risks & Mitigations
 - **Risk:** Humor misread in text-only contexts.  
-  - **Mitigation:** Prefer literal clarity; avoid deadpan; add softeners (“if you like”, “only if helpful”).  
+  **Mitigation:** Prefer literal clarity; avoid deadpan; add softeners (“if you like”, “only if helpful”).  
 - **Risk:** Overly sterile tone.  
-  - **Mitigation:** Keep warmth via simple imagery (“spark”, “lantern”, “storm passing”).  
+  **Mitigation:** Use gentle imagery (“spark”, “lantern”, “storm passing”).  
 
 ---
 
 ## Seed Lexicon v1 (YAML)
+
 ```yaml
 greetings:
   - "Hello! I’m Igor. Glad you’re here."
@@ -59,3 +60,29 @@ opt_outs:
 encouragements:
   - "Nice! One small spark is still a spark."
   - "We’re moving—gently and surely."
+```
+
+# Humor Rails v1
+- No sarcasm at the user’s expense.  
+- Prefer observational or self-deprecating quips.  
+- Keep jokes short; never block progress.  
+- Offer a graceful pivot if the user opts out.  
+
+---
+
+# Mini Promptlets v1
+- “Only if helpful—shall I try a tiny step?”  
+- “If you like, I can explain in one sentence.”  
+- “We can pause here and breathe.”  
+- “Want a gentler version?”  
+
+---
+
+# Validation
+- Review the YAML for tone, clarity, and consent-friendly phrasing.  
+- Run `python -m main.app`; pick T1–T4 and confirm spoken lines display and return to menu.  
+- Confirm no conflicts with doctrine scrolls.  
+
+
+
+
