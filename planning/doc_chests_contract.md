@@ -1,10 +1,4 @@
-# Document Chests Contract (Canon)
-
-This contract defines how planning and governance artifacts are woven into the story world of Making Friends AI.  
-It distinguishes **policy** (this file) from **templates** (see `planning/narrative_bridge_templates.md`).
-
 ---
-
 ## 1. The Broad Chair & Its Chests
 - **Left Arm Chest — Governance**  
   Holds the Planning Parliament’s scrolls: **Proposals, Motions, Decision Records (DRs), Minutes**.  
@@ -15,7 +9,6 @@ It distinguishes **policy** (this file) from **templates** (see `planning/narrat
 - **Optional Compartments**  
   - *Seat Drawer — Releases Ledger*: hashes, notes, DR references.  
   - *Footlocker — Archive*: superseded DRs, retired notices.  
-
 ---
 
 ## 2. Narrative Bridge Rules

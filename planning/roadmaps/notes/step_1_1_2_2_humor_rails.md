@@ -1,13 +1,9 @@
-# Step 1.1.2.2 — Humor Rails v1
-
 ---
-
 id: roadmap-l3-1.1.2.2  
 kind: roadmap-note  
 owners: [planning]  
 status: drafting  
 parent: roadmap-l3-1.1.2  
-
 ---
 
 ## Purpose

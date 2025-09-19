@@ -1,8 +1,4 @@
-# Step 1.1.2 → First Words and Jokes  
-*Maintained by the Planning Friends in Igor’s Chest.*  
-
 ---
-
 ## The Motions under Decree 1.1.2
 
 - **Step 1.1.2 — First Words and Jokes**  
@@ -11,7 +7,6 @@
   *(Scaffolded as seed lexicon, humor rails, and mini promptlets.)*  
   Note: `planning/roadmaps/notes/step_1_1_2_first_words_and_jokes.md`  
   Status: active  
-
 ---
 
 ## Provenance

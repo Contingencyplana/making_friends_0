@@ -1,16 +1,8 @@
-# Planning Parliament — Making Friends AI
-
-The **Planning Parliament** is the governance cavern within `making_friends_0`.  
-It provides structure for decision-making across all Making Friends AI workspaces.  
-Together with the **Whitecoat Parliament of the South**, it balances planning and creation at the planetary scale.
-
 ---
-
 ## 1. Purpose
 - Ratify high-level **charters, proposals, motions, and decisions**.  
 - Serve as the **voice of coordination** between caverns (workspaces).  
 - Preserve **traceable Decision Records (DRs)** for long-term provenance.  
-
 ---
 
 ## 2. Membership

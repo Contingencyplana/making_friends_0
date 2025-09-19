@@ -1,12 +1,8 @@
-# Transitional Stage — Making Friends AI
-
 ---
-
 id: transitional-stage
 kind: doctrine
 owners: [planning]
 status: active
-
 ---
 
 This scroll records the **hinge between Genesis and Planning**:  

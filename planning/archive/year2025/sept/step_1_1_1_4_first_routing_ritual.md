@@ -1,13 +1,9 @@
-# Step 1.1.1.4 — First Routing Ritual
-
 ---
-
 id: roadmap-l3-1.1.1.4
 kind: roadmap-note
 owners: [planning]
 status: complete
 parent: roadmap-l3-1.1.1
-
 ---
 
 ## Context

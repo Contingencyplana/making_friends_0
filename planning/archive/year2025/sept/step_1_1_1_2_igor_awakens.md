@@ -1,14 +1,10 @@
-# Step 1.1.1.2 — Igor Awakens
-
 ---
-
 id: step-1-1-1-2-igor-awakens
 kind: roadmap-note
 owners: [planning]
 status: complete
 parent: step-1-1-1-genesis-of-igor
 level: 3
-
 ---
 
 **Narrative beat:**  

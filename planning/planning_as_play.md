@@ -1,17 +1,9 @@
-# Planning as Play — Making Friends AI
-
-This doctrine affirms the principle that in **Making Friends AI**,  
-planning is not separate from play — it *is* play.  
-Every chest, scroll, and round table card belongs inside the story.  
-
 ---
-
 ## 1. Purpose
 - Declare that planning files are not mere admin tools.  
 - Preserve immersion by treating planning as part of the narrative world.  
 - Guard against the temptation of “ordinary planning” that hollows out the myth.  
 - Provide a competitive edge: no other project dares to make planning itself a game.  
-
 ---
 
 ## 2. Principles

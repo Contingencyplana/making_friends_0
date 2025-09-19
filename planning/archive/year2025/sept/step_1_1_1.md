@@ -1,13 +1,9 @@
-# Step 1.1.1 → Genesis of Igor
-
 ---
-
 id: roadmap-l3-1.1.1
 kind: roadmap
 owners: [planning]
 status: active
 parent: 1.1.1
-
 ---
 
 - **Step 1.1.1.1 — The Storm Table**  

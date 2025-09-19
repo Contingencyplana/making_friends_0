@@ -1,9 +1,4 @@
-# Narrative Bridge Templates
-
-Use these snippets to reference planning/governance files **inside the story**.
-
 ---
-
 ## 1) Lore Note (Inline)
 > **Lore Note:** The girl brushed dust from a parchment stamped with **DR-YYYYMMDD-####**.  
 > “It says the cave must split,” she whispered. “Two doors now, not one.”  
@@ -12,7 +7,6 @@ Use these snippets to reference planning/governance files **inside the story**.
 **Fill-ins:**  
 - Replace DR ID.  
 - Mention where the reader can “find” it (e.g., left/right arm chest).
-
 ---
 
 ## 2) Chest Index (Scene Prop)

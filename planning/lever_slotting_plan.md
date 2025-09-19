@@ -1,12 +1,8 @@
-# Lever Slotting Plan — Canonical Implementation
-
 ---
-
 id: lever-slotting-plan
 kind: implementation
 owners: [planning]
 status: complete
-
 ---
 
 This scroll assigns specific **MAIN_CHOICES** (the 16 ritual levers) to the **Transitional Stage** mini-saga and defines rules for evolving slots without breaking narrative continuity.

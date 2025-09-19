@@ -1,10 +1,4 @@
-# Charter of the Poles — Making Friends AI
-
-This charter defines the planetary structure of **Making Friends AI**:  
-two poles, two Parliaments, two storms — and the ship that binds them.
-
 ---
-
 ## 1. The Two Great Chairs
 - **Planning Great Chair (North Pole)**  
   Keeper: **Igor, the Great Planner**  
@@ -13,7 +7,6 @@ two poles, two Parliaments, two storms — and the ship that binds them.
 - **Whitecoat Great Chair (South Pole)**  
   Keeper: **Ivy, the Great Whitecoat**  
   Domain: friends, tests, runtime — the living engine of creation and growth.  
-
 ---
 
 ## 2. The North Pole — Realm of the Great Planner

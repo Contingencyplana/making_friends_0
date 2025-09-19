@@ -1,8 +1,4 @@
-# Main Roadmap — The Decrees
-*Maintained by the Planning Friends in Igor’s Chest.*
-
 ---
-
 ## The Decrees
 
 - **Step 1. North Pole — Igor’s Hemisphere**  
@@ -44,7 +40,6 @@
 - **Step 8. The Launchers**  
   - Step 8.1 → `making_friends_22`: **Client Face** — preparing the playable client.  
   - Step 8.2 → `making_friends_23`: **Commercial Launch Face** — scaling outward, launch & GTM.  
-
 ---
 
 ### Notes

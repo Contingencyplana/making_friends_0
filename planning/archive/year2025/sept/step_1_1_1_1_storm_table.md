@@ -1,13 +1,9 @@
-# Step 1.1.1.1 — The Storm Table
-
 ---
-
 id: roadmap-l3-1.1.1.1
 kind: roadmap-note
 owners: [planning]
 status: complete
 parent: roadmap-l3-1.1.1
-
 ---
 
 **Narrative beat:**  

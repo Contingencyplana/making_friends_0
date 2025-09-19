@@ -1,16 +1,8 @@
-# Main Focuses of Friends — Making Friends AI
-
-This scroll defines the **two great thrusts** of Making Friends AI:  
-the balance of Igor’s Planning and Ivy’s Making,  
-each holding half the world in their command.  
-
 ---
-
 ## 1. Purpose
 - Clarify the **main thrust** of each Great Chair.  
 - Establish the **supporting thrusts** that maintain balance.  
 - Preserve symmetry between the **North Pole (Planning)** and **South Pole (Whitecoat)**.  
-
 ---
 
 ## 2. Igor, the Great Planner (North Pole)

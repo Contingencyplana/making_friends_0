@@ -1,13 +1,9 @@
-# Step 1.1.1.5 — Closing Beat
-
 ---
-
 id: roadmap-l3-1.1.1.5
 kind: roadmap-note
 owners: [planning]
 status: complete
 parent: roadmap-l3-1.1.1
-
 ---
 
 ## Purpose

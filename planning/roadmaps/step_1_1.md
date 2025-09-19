@@ -1,8 +1,4 @@
-# Step 1.1 (Igor’s Awakening)  
-*Maintained by the Planning Friends in Igor’s Chest.*  
-
 ---
-
 ## The Motions under Decree 1.1
 
 - **Step 1.1.1 → Genesis of Igor** — *Status: complete (archived)*  
@@ -42,7 +38,6 @@
   With Igor speaking, scrolls penned, and roadmaps alive, the North Pole Parliament truly convenes.  
   Deputies, scribes, and archivists now hold their Broad Chair.  
   The recursive balance with Ivy is foreshadowed.
-
 ---
 
 ## Provenance

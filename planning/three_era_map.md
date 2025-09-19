@@ -1,19 +1,9 @@
-# Three Era Map
-
-A compass for the Lonely Doctor’s dreams.  
-The transformation will be glacial, but inevitable.  
-Each era aligns with the tools at hand, the story unfolding, and SHAGI’s long arc.  
-
-This record belongs within the lab’s own archives — a quiet reminder of where the dreams may lead.  
-
 ---
-
 ## Era I — Dreams as Foreshadowing
 *Timeline:* Early *Making Friends* (Friends 1–2, first stanza).  
 *Story:* The Lonely Doctor glimpses snowfields, bells, laughter. The fortress flickers — not yet a workshop, but it hints.  
 *Tools:* Present-day coding and documentation, cold and rigid. Dreams surface only as whispers.  
 *Role:* Foreshadowing without interference. A thread of enchantment woven lightly through the lab.  
-
 ---
 
 ## Era II — Dreams as Parallel Current

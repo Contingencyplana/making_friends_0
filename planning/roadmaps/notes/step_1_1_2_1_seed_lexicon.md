@@ -1,13 +1,9 @@
-# Step 1.1.2.1 — Seed Lexicon v1
-
 ---
-
 id: roadmap-l3-1.1.2.1  
 kind: roadmap-note  
 owners: [planning]  
 status: complete  
 parent: roadmap-l3-1.1.2  
-
 ---
 
 ## Purpose

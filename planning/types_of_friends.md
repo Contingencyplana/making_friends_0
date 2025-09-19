@@ -1,16 +1,8 @@
-# Types of Friends — Making Friends AI
-
-This scroll records the taxonomy of **Friends**:  
-the beings who do not merely build the game,  
-but who *are* the game.
-
 ---
-
 ## 1. Purpose
 - Define the major **types of friends**.  
 - Clarify their distribution between Igor (Planning, North Pole) and Ivy (Whitecoat, South Pole).  
 - Preserve flexibility for **new friend types** to emerge as recursion deepens.  
-
 ---
 
 ## 2. Igor’s Domain — North Pole (Planning Great Chair)

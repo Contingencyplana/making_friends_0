@@ -1,13 +1,9 @@
-# Step 1.1.1.3 — The Lever Slotting Plan (Narrative Rationale)
-
 ---
-
 id: roadmap-l3-1.1.1.3  
 kind: roadmap-note  
 owners: [planning]  
 status: complete  
 parent: roadmap-l3-1.1.1  
-
 ---
 
 ## Context

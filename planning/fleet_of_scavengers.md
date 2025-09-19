@@ -1,12 +1,4 @@
-# Fleet of Scavengers — Making Friends AI
-
-This scroll records the legend of the **Fleet of Scavengers**:  
-the Lonely Doctor’s youthful armada, born of ruin,  
-that stripped the planet’s alien wrecks and delivered hulks  
-into the **Harbor of Hulks**, foundation of his storm-crowned **Polar Fortress**.
-
 ---
-
 ## 1. Description
 - The **greatest scavenger fleet** the planet ever saw.  
 - Comprised of patched ships, barges, hulks, and rafts —  
@@ -19,7 +11,6 @@ into the **Harbor of Hulks**, foundation of his storm-crowned **Polar Fortress**
 - All spoils were funneled into the Harbor of Hulks,  
   the sea-gate and marrow of the wider **Polar Fortress**,  
   where ships themselves were left to rot once emptied.  
-
 ---
 
 ## 2. Narrative Roles

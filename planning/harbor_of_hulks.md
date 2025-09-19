@@ -1,12 +1,4 @@
-# Harbor of Hulks — Making Friends AI
-
-This scroll records the lore and purpose of the **Harbor of Hulks**:  
-a vast junkyard sea cavern beneath the isle, transfixed by the  
-**Timestorm Generator Scepter**, and axis of three arcs —  
-the Doctor’s arrival, Igor’s transition, and Ivy’s departure.
-
 ---
-
 ## 1. Description
 - A **great central sea cavern**, water-filled and cathedral vast.  
 - Its ceiling and floor are pierced by the **Timestorm Generator Scepter**,  
@@ -18,7 +10,6 @@ the Doctor’s arrival, Igor’s transition, and Ivy’s departure.
 - Many ships are **piled high with scavenged alien relics** —  
   wreckage of conquerors who destroyed themselves in a great sea battle.  
 - Lanterns still gutter faintly, fed by forgotten alchemy and saltfire.  
-
 ---
 
 ## 2. Narrative Roles

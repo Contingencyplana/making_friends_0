@@ -1,19 +1,9 @@
-# Planning-Led, Lab-Fed
-
-The doctrine of Making Friends AI.  
-Planning leads. Labs feed.  
-When planning stalls, new labs are carved to sustain it.  
-
-This compass ensures we never starve for order, nor drown in chaos.
-
 ---
-
 ## Cycle 0 — The Seed
 - **Lab:** The Basement Lab already exists (Grumble was born here).  
 - **Planning:** The Planning Parliament is dark, cobwebbed, awaiting first arcs.  
 - **Rule:** The Basement Lab sustains the first Planning Friends.  
   (Igor arrives. The first clerk dusts a desk. The first Workspace Planner takes their seat.)  
-
 ---
 
 ## Cycle 1 — Friends 1–4
