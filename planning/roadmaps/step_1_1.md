@@ -5,43 +5,43 @@
 
 ## The Motions under Decree 1.1
 
-- **Step 1.1.1 → Genesis of Igor**  
+- **Step 1.1.1 → Genesis of Igor** — *Status: complete (archived)*  
   The Doctor and Grumble craft Igor at the Storm Table.  
   Igor awakens with comic quirks, setting the tone for Parliament to come.  
   *(Scaffolded as Lever 1: intro scene, 16 sub-choices, router.)*  
-  Status: complete (merged)  
-  Note: planning/roadmaps/step_1_1_1.md
+  Archive: `planning/archive/year2025/sept/`
 
-- **Step 1.1.2 → First Words and Jokes**  
+- **Step 1.1.2 → First Words and Jokes** — *Status: active*  
   Igor’s early sub-choices blossom into micro-scenes.  
   Each choice seeds a hint of future planning powers — the first sparks of his Parliament voice.  
+  Note: `planning/roadmaps/notes/step_1_1_2_first_words_and_jokes.md`
 
-- **Step 1.1.3 → The First Scrolls**  
+- **Step 1.1.3 → The First Scrolls** — *Status: pending*  
   Planning Friends inscribe Igor’s opening doctrines:  
   - `great_dream.md`  
   - `great_vision.md`  
   - `golden_sunshine_and_silver_rain.md`  
-  These scrolls anchor doctrine beyond competition, laying Parliament’s philosophical foundation.  
+  These scrolls anchor doctrine beyond competition, laying Parliament’s philosophical foundation.
 
-- **Step 1.1.4 → The Chest of Records**  
+- **Step 1.1.4 → The Chest of Records** — *Status: pending*  
   Igor’s planning chest gains its first compartments:  
   - `main_focuses.md`  
   - `types_of_friends.md`  
   - `roadmaps/` begins.  
-  These serve as the first Decision Records of the recursive Parliament.  
+  These serve as the first Decision Records of the recursive Parliament.
 
-- **Step 1.1.5 → First Roadmaps Take Shape**  
+- **Step 1.1.5 → First Roadmaps Take Shape** — *Status: pending*  
   The Planning Friends debate and draft the four-level roadmap structure:  
   - Level 1 Decrees (done).  
   - Level 2 Motions (this scroll).  
   - Level 3 Notes.  
   - Level 4 Ledger.  
-  Updating roadmaps becomes a recursive game mechanic.  
+  Updating roadmaps becomes a recursive game mechanic.
 
-- **Step 1.1.6 → Igor’s Parliament Awakens**  
+- **Step 1.1.6 → Igor’s Parliament Awakens** — *Status: pending*  
   With Igor speaking, scrolls penned, and roadmaps alive, the North Pole Parliament truly convenes.  
   Deputies, scribes, and archivists now hold their Broad Chair.  
-  The recursive balance with Ivy is foreshadowed.  
+  The recursive balance with Ivy is foreshadowed.
 
 ---
 
