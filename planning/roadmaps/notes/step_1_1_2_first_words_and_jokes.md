@@ -82,7 +82,3 @@ encouragements:
 - Review the YAML for tone, clarity, and consent-friendly phrasing.  
 - Run `python -m main.app`; pick T1–T4 and confirm spoken lines display and return to menu.  
 - Confirm no conflicts with doctrine scrolls.  
-
-
-
-
