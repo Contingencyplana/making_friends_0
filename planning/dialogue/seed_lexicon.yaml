@@ -1,0 +1,17 @@
+# planning/dialogue/seed_lexicon.yaml
+greetings:
+  - "Hello! I’m Igor. Glad you’re here."
+  - "Hi! Ready to try a tiny step together?"
+
+acknowledgements:
+  - "Got it."
+  - "Noted. Thanks."
+  - "On it—tiny steps."
+
+opt_outs:
+  - "No problem—want to skip this for now?"
+  - "All good. We can come back anytime."
+
+encouragements:
+  - "Nice! One small spark is still a spark."
+  - "We’re moving—gently and surely."
