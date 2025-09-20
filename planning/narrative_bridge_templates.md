@@ -1,4 +1,12 @@
 ---
+id: narrative-bridge-templates
+kind: templates
+owners: [planning]
+status: active
+---
+
+# Narrative Bridge Templates
+
 ## 1) Lore Note (Inline)
 > **Lore Note:** The girl brushed dust from a parchment stamped with **DR-YYYYMMDD-####**.  
 > “It says the cave must split,” she whispered. “Two doors now, not one.”  
@@ -8,8 +16,6 @@
 - Replace DR ID.  
 - Mention where the reader can “find” it (e.g., left/right arm chest).
 ---
-
-# Fill-ins:
 
 ## 2) Chest Index (Scene Prop)
 **Igor’s Broad Chair — Document Chests**

@@ -1,23 +1,30 @@
 ---
-## 1. The Broad Chair & Its Chests
-- **Left Arm Chest — Governance**  
-  Holds the Planning Parliament’s scrolls: **Proposals, Motions, Decision Records (DRs), Minutes**.  
-
-- **Right Arm Chest — Local Notices**  
-  Holds cave-level artifacts: **Door Notices, Cave Charters, Round Table Cards**.  
-
-- **Optional Compartments**  
-  - *Seat Drawer — Releases Ledger*: hashes, notes, DR references.  
-  - *Footlocker — Archive*: superseded DRs, retired notices.  
+id: doc-chests-contract
+kind: contract
+owners: [planning]
+status: active
 ---
 
 # Doc Chests Contract
 
+## 1. The Broad Chair & Its Chests
+- **Left Arm Chest — Governance**  
+  Holds the Planning Parliament’s scrolls: **Proposals, Motions, Decision Records (DRs), Minutes**.
+
+- **Right Arm Chest — Local Notices**  
+  Holds cave-level artifacts: **Door Notices, Cave Charters, Round Table Cards**.
+
+- **Optional Compartments**  
+  - *Seat Drawer — Releases Ledger*: hashes, notes, DR references.  
+  - *Footlocker — Archive*: superseded DRs, retired notices.
+
+---
+
 ## 2. Narrative Bridge Rules
 - Every overarching planning file must be reachable through at least one **Lore Note** or **Chest Index** in-story.  
 - Parliament artifacts (DRs, Proposals, Motions, Minutes) are always stored in the **Left Arm Chest**.  
-- Local cave planning (Door Notices, Charters) are always stored in the **Right Arm Chest**.  
-- Round Table Cards appear in-story at the council scene, but are also indexed here.  
+- Artifacts for local cave planning (Door Notices, Charters) are always stored in the **Right Arm Chest**.  
+- **Round Table Cards** appear in-story at the council scene and are also indexed here.
 
 ---
 

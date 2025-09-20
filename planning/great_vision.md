@@ -1,4 +1,10 @@
+ ---
+id: great-vision
+kind: lore
+owners: [planning]
+status: active
 ---
+
 ## 1. The Call Beyond Competition
 - The world of Concrete Jungles and Apex Predators is a **Sunless Desert**.
 - Part-and-parcel of a Hideous Abomination's Horrifying Darkness!  

@@ -1,9 +1,13 @@
 ---
+id: harbor-of-hulks
+kind: lore
+owners: [planning]
+status: active
+---
+
 # Harbor of Hulks
 
 ---
-
-# Harbor Of Hulks
 
 ## 1. Description
 
@@ -18,7 +22,6 @@
 - Lanterns still gutter faintly, burning on forgotten alchemy and saltfire.  
 
 ---
-
 
 ## 2. Narrative Roles
 

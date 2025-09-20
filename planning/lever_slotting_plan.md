@@ -5,7 +5,7 @@ owners: [planning]
 status: complete
 ---
 
-# Reserved meta:
+# Reserved meta
 
 This scroll assigns specific **MAIN_CHOICES** (the 16 ritual levers) to the **Transitional Stage** mini-saga and defines rules for evolving slots without breaking narrative continuity.
 

@@ -1,11 +1,17 @@
 ---
+id: main-focuses
+kind: doctrine
+owners: [planning]
+status: active
+---
+
 ## 1. Purpose
 - Clarify the **main thrust** of each Great Chair.  
 - Establish the **supporting thrusts** that maintain balance.  
 - Preserve symmetry between the **North Pole (Planning)** and **South Pole (Whitecoat)**.  
 ---
 
-# Main Focus (≈50%) → Planning Friends
+# Main Focuses
 
 ## 2. Igor, the Great Planner (North Pole)
 
@@ -14,7 +20,7 @@
 - Scribes record **Motions** word-for-word, their quills binding law to parchment.  
 - Archivists seal **Decision Records** into the Left Arm Chest of Igor’s Broad Chair, where no decree is ever lost.  
 - Councilors gather at the Round Table, trading Igor’s jokes for solemn decrees, weighing play against necessity.  
-Together they keep the recursive Parliament alive, ensuring no act of making proceeds without a plan.
+Together they keep the recursive Parliament alive, ensuring no act of making proceeds without a plan.  
 
 **Supporting Focus (≈50%) → Other Friend Types**  
 - **Test Friends** stage trial-by-storm: every plan must be proved before passage.  

@@ -1,19 +1,26 @@
 ---
+id: fleet-of-scavengers
+kind: lore
+owners: [planning]
+status: active
+---
+
+# Fleet of Scavengers
+
 ## 1. Description
 - The **greatest scavenger fleet** the planet ever saw.  
-- Comprised of patched ships, barges, hulks, and rafts —  
+- Comprised of patched ships, barges, hulks, and rafts—  
   built from the wreckage of an alien armada that once  
   conquered the seas, then annihilated itself in battle.  
 - Crews were wanderers, tinkerers, and opportunists,  
   bound by the Doctor’s charisma and unyielding purpose.  
 - Their holds brimmed with **alien steel, storm-forged crystals,  
   and impossible machinery**, scavenged from battlefields.  
-- All spoils were funneled into the Harbor of Hulks,  
+- All spoils were funneled into the **Harbor of Hulks**,  
   the sea-gate and marrow of the wider **Polar Fortress**,  
-  where ships themselves were left to rot once emptied.  
----
+  where ships themselves were left to rot once emptied.
 
-# Fleet Of Scavengers
+---
 
 ## 2. Narrative Roles
 - **Doctor’s Youthful Arc:**  
@@ -22,14 +29,14 @@
   - Their mission: strip the dead conquerors so the living could rebuild.  
 
 - **The Great Alien Sea Battle:**  
-  - Alien fleets fought until none remained — a storm of fire and thunder that cracked the horizon.  
+  - Alien fleets fought until none remained—a storm of fire and thunder that cracked the horizon.  
   - Wrecks littered the seas, floating graveyards of a war that consumed its makers.  
   - The Doctor’s fleet descended after the carnage, scavenging what the aliens left behind.  
 
 - **Legacy in the Harbor:**  
   - Hulks too broken for the fleet were dragged into the **Harbor of Hulks**.  
   - As the lowest chamber of the **Polar Fortress**, it became both junkyard and treasury.  
-  - Their bones became Igor’s Round Table, Ivy’s future fleet, and endless prototypes.  
+  - Their bones became Igor’s Round Table, Ivy’s future fleet, and endless prototypes.
 
 ---
 

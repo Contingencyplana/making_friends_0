@@ -1,4 +1,12 @@
 ---
+id: main-roadmap
+kind: roadmap
+owners: [planning]
+status: active
+---
+
+# Main Roadmap
+
 ## The Decrees
 
 - **Step 1. North Pole — Igor’s Hemisphere**  

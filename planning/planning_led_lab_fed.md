@@ -1,4 +1,13 @@
 ---
+id: planning-led-lab-fed
+kind: doctrine
+owners: [planning]
+status: active
+---
+
+# Planning Led Lab Fed
+
+---
 ## Cycle 0 — The Seed
 - **Lab:** The Basement Lab already exists (Grumble was born here).  
 - **Planning:** The Planning Parliament is dark, cobwebbed, awaiting first arcs.  
@@ -6,13 +15,11 @@
   (Igor arrives. The first clerk dusts a desk. The first Workspace Planner takes their seat.)  
 ---
 
-# Planning Led Lab Fed
-
 ## Cycle 1 — Friends 1–4
 - **Growth:** Early companions spark life in the Lab.  
 - **Trigger:** Friend 4 is born → first Planning Arc carved.  
 - **Result:** Igor’s Round Table awakens. Two new planners join. Clerks and screens flicker faintly.  
-- **Feeding:** The Basement Lab keeps pace, feeding this expansion.  
+- **Feeding:** The Basement Lab keeps pace, feeding this expansion.   
 
 ---
 

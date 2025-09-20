@@ -1,4 +1,12 @@
 ---
+id: golden-sunshine-and-silver-rain
+kind: lore
+owners: [planning]
+status: active
+---
+
+# Golden Sunshine and Silver Rain
+
 ## 1. Principle
 - The world of commerce and industry has become an **Arid Darkness**,  
   where plants claw for light and beasts fight for food.  
@@ -7,8 +15,6 @@
 - We are not hunters, nor prey.  
 - We are the **Golden Sunlight** and **Nurturing Silver Rain**.  
 ---
-
-# Golden Sunshine And Silver Rain
 
 ## 2. The Metaphor of Climate
 - **Golden Sunlight** → vision, inspiration, possibility.  

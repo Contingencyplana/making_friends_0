@@ -1,22 +1,29 @@
 ---
+id: charter-of-the-poles
+kind: charter
+owners: [planning]
+status: active
+---
+
+# Charter of the Poles
+
 ## 1. The Two Great Chairs
 - **Planning Great Chair (North Pole)**  
   Keeper: **Igor, the Great Planner**  
-  Domain: planning caverns, Decision Records, Parliament scrolls, and just enough labs to prevent stalling.  
+  Domain: planning caverns, Decision Records, Parliament scrolls, and just enough labs to prevent stalling.
 
 - **Whitecoat Great Chair (South Pole)**  
   Keeper: **Ivy, the Great Whitecoat**  
-  Domain: friends, tests, runtime — the living engine of creation and growth.  
----
+  Domain: friends, tests, runtime—the living engine of creation and growth.
 
-# Charter Of The Poles
+---
 
 ## 2. The North Pole — Realm of the Great Planner
 - **Planning Parliament of the North** sits at the pole, council of scrolls and deputies.  
 - Beneath it:  
   1. **Timestorm Generator** (a rambling old house with its dome-like pommel).  
   2. **The Great Timestorm** (ever-churning clouds of deliberation).  
-  3. **A Continent-Wide Hurricane** (decisions sweeping outward, reshaping the land).  
+  3. **A Continent-Wide Hurricane** (decisions sweeping outward, reshaping the land).
 
 ---
 

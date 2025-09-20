@@ -1,11 +1,11 @@
-# Cavern & Cave Model — Making Friends AI
-
 ---
 id: cavern-and-cave-model
 kind: standards
 owners: [planning]
 status: active
 ---
+
+# Cavern & Cave Model — Making Friends AI
 
 This scroll defines the canonical structure for **caverns** (VS Code workspaces) and **caves** (single-task teams) across Making Friends AI, aligned with the **15 + 15 seats, Doctor tie-breaker** parliament model.
 

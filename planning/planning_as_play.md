@@ -1,12 +1,18 @@
 ---
+id: planning-as-play
+kind: doctrine
+owners: [planning]
+status: active
+---
+
+# Planning as Play
+
 ## 1. Purpose
 - Declare that planning files are not mere admin tools.  
 - Preserve immersion by treating planning as part of the narrative world.  
 - Guard against the temptation of “ordinary planning” that hollows out the myth.  
 - Provide a competitive edge: no other project dares to make planning itself a game.  
 ---
-
-# Planning As Play
 
 ## 2. Principles
 - **Immersion:** Planning artifacts appear as story objects — chests, scrolls, decrees.  
