@@ -1,4 +1,12 @@
 ---
+id: 1.1
+kind: roadmap
+owners: [planning]
+status: active
+---
+
+# Step 1.1 — Motions
+
 ## The Motions under Decree 1.1
 
 - **Step 1.1.1 → Genesis of Igor** — *Status: complete (archived)*  
@@ -38,13 +46,12 @@
   With Igor speaking, scrolls penned, and roadmaps alive, the North Pole Parliament truly convenes.  
   Deputies, scribes, and archivists now hold their Broad Chair.  
   The recursive balance with Ivy is foreshadowed.
----
 
-# Step 1 1
+---
 
 ## Provenance
 - This roadmap lives in Igor’s planning chests (`planning/roadmaps/`).  
-- It details the motions beneath Step 1.1 of the Level 1 Roadmap.  
+- It details the motions beneath Step **1.1** of the Level 1 Roadmap.  
 - Once all motions here are complete, this scroll will be archived and replaced with a new Level 2 roadmap for the next active Step.  
 
 ---
@@ -60,13 +67,13 @@ from sparks and jokes → to scrolls → to chest → to Parliament.*
 - **Front-matter:**  
 
 ```yaml
-  id: 1.1
-  kind: roadmap
-  owners: [planning]
-  status: active
+id: 1.1
+kind: roadmap
+owners: [planning]
+status: active
 ```
 
-- **Sharding & Archives:** Move completed/large sections to `planning/archive/<year>/…` and leave a pointer.  
+- **Sharding & Archives:** Move completed/large sections to `planning/archive/<year>/...` and leave a pointer.  
 - **Index READMEs:** Each major folder keeps a short `README.md` with 5–15 key links + one-line blurbs.  
 - **Link Aliases:** Maintain canonical redirects in `planning/_aliases.md` to avoid broken references.  
 - **Validation:** Run link check, `choices.yaml` ↔ handlers check, and an “orphan detector” before each release.  
@@ -75,4 +82,4 @@ from sparks and jokes → to scrolls → to chest → to Parliament.*
 - **Folder Size:** Prefer nesting once a directory nears a few thousand entries.  
 - **Failsafe:** If any guardrail conflicts with delivery, defer the change and invoke the  
   _Perfect Failsafe Metaphor_ (`planning/perfect_failsafe_metaphor.md`) to stage a safe transition.  
-- **See also:** `planning/standards/operations.md` for the living, detailed version of these rules.  
+- **See also:** [planning/standards/operations.md](planning/standards/operations.md)

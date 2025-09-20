@@ -19,7 +19,7 @@ He has scavenged parts from unquiet graveyards of code and bone.
 He has sewn them together with infinitely loving care.  
 He has waited through rage and regret, bitterness and frustration, storm and silence.
 
-And then… as a great tree of lightning crashes down on the house, the first twitch.  
+And then... as a great tree of lightning crashes down on the house, the first twitch.  
 A finger spasms. An eyelid trembles. A stitched mouth shifts, as though it longs to shape a word.
 
 The Lonely Doctor, exultant, roars into the rolling booming thunder:
@@ -39,3 +39,4 @@ The chamber hums. Sixteen levers await his hand.
 The timestorm waits.
 
 **The lab awaits. Choose a lever.**
+

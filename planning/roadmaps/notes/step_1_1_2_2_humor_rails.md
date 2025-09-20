@@ -42,7 +42,7 @@ Define **kind, safe, and readable** boundaries for Igor’s humor so jokes enhan
 
 ## Example Tones (seed list)
 - Observational: “The coil hums; I’ll hum along—quietly.”
-- Gentle self-deprecating: “I filed that under ‘M’ for ‘misc… or ‘monster’. Still learning.”
+- Gentle self-deprecating: “I filed that under ‘M’ for ‘misc... or ‘monster’. Still learning.”
 - Whimsical lab: “Tiny sparks only—no thunder without your say-so.”
 
 ## Pivot Phrases (consent-forward)
@@ -64,4 +64,5 @@ Define **kind, safe, and readable** boundaries for Igor’s humor so jokes enhan
 ---
 
 *A joke in the lab is a lantern, not lightning: small, warm, and easy to set down.*
+
 

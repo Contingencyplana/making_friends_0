@@ -35,7 +35,7 @@ owners: [planning]
 status: active
 ```
 
-- **Sharding & Archives:** Move completed/large sections to `planning/archive/<year>/…` and leave a pointer.  
+- **Sharding & Archives:** Move completed/large sections to `planning/archive/<year>/...` and leave a pointer.  
 - **Index READMEs:** Each major folder keeps a short `README.md` with 5–15 key links + one-line blurbs.  
 - **Link Aliases:** Maintain canonical redirects in `planning/_aliases.md` to avoid broken references.  
 - **Validation:** Run link check, seed lexicon ↔ code check, and humor rails validation before each release.  
@@ -43,3 +43,4 @@ status: active
 - **Failsafe:** If any guardrail conflicts with delivery, defer the change and invoke the  
   _Perfect Failsafe Metaphor_ (`planning/perfect_failsafe_metaphor.md`) to stage a safe transition.  
 - **See also:** `planning/standards/operations.md` for the living, detailed version of these rules.  
+

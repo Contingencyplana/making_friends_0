@@ -27,7 +27,7 @@ seeds of planning foresight.
 
 ## First Words (draft)
 - “Yes, Master!” (comic reflex; origin line).
-- “Uh… did I just speak?” (self-aware spark).
+- “Uh... did I just speak?” (self-aware spark).
 - “Are we playing yet?” (tone-setter).
 
 ## Scene Sketch
@@ -64,3 +64,4 @@ seeds of planning foresight.
 ## Validation
 - Read aloud: tone is comic + kind.
 - Run repo check: `scripts/validate_choices.py`.
+

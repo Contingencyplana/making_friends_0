@@ -52,7 +52,7 @@ Related: `doctors_stitch_ui.md`, `companion_workbench.md`, `lonely_doctor_spec.m
 
 | Task                     | None | Novice                  | Apprentice                    | Journeyman                              | Master |
 |--------------------------|:----:|-------------------------|-------------------------------|-----------------------------------------|--------|
-| Create branches          | 🔒   | ✅ prefixed (`feat/…`) | ✅ protective naming policies | ✅ auto-branch on PR creation            | ✅ branching strategy advisor        |
+| Create branches          | 🔒   | ✅ prefixed (`feat/...`) | ✅ protective naming policies | ✅ auto-branch on PR creation            | ✅ branching strategy advisor        |
 | Open PRs with checklists | 🔒   | ✅ template PR         | ✅ risk notes + reviewers     | ✅ label, assign, schedule merge windows | ✅ cross-timeline coordination       |
 | Merge (non-critical)     | 🔒   | ⚠️ with Doctor present | ⚠️ with green checks          | ✅ auto-merge in maintenance windows     | ✅ policy-driven merges              |
 
@@ -144,3 +144,4 @@ capabilities:
 Companions should feel like **apprentices who become craft partners**.  
 They take the drudgery, expose choices with kindness, and earn trust in public.  
 The tiers make progress visible; the stitch-and-story rituals make it joyful.
+

@@ -52,7 +52,7 @@ day-to-day motions, decrees, logging, rollback, and the ceremonial role of Docto
 ## 6. Ritual & Ceremony
 
 - **Opening:** Bell rung by Igor/Ivy; parchment unfurled.  
-- **Debate:** Doctors address each other by chosen adjectives (“Doctor Radiant, Doctor Curious…”).  
+- **Debate:** Doctors address each other by chosen adjectives (“Doctor Radiant, Doctor Curious...”).  
 - **Closing:** Motion sealed with a symbolic stitch; companion clerk archives the record.  
 
 ---
@@ -70,3 +70,4 @@ day-to-day motions, decrees, logging, rollback, and the ceremonial role of Docto
 The Parliaments are **structured but playful**, ensuring decisions feel  
 ceremonial and meaningful while maintaining transparency, safety, and reversibility.  
 Doctors mostly remain above/beyond the chambers, stepping in only when rituals demand it.
+
