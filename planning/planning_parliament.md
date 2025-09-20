@@ -1,4 +1,10 @@
 ---
+id: planning-parliament
+kind: standards
+owners: [planning]
+status: active
+---
+
 ## 1. Purpose
 - Ratify high-level **charters, proposals, motions, and decisions**.  
 - Serve as the **voice of coordination** between caverns (workspaces).  
