@@ -5,13 +5,14 @@ owners: [planning]
 status: active
 ---
 
+# Planning Parliament
+
 ## 1. Purpose
 - Ratify high-level **charters, proposals, motions, and decisions**.  
 - Serve as the **voice of coordination** between caverns (workspaces).  
-- Preserve **traceable Decision Records (DRs)** for long-term provenance.  
----
+- Preserve **traceable Decision Records (DRs)** for long-term provenance.
 
-# Planning Parliament
+---
 
 ## 2. Membership
 - **Workspace Planners**: each workspace nominates one planner.  
