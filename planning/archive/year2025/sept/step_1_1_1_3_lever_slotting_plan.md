@@ -6,7 +6,7 @@ status: complete
 parent: roadmap-l3-1.1.1  
 ---
 
-# Step 1 1 1 3 Lever Slotting Plan
+# Step 1.1.1.3 Lever Slotting Plan
 
 ## Context
 This step followed naturally after **The Storm Table** (1.1.1.1) and **Igor Awakens** (1.1.1.2).  

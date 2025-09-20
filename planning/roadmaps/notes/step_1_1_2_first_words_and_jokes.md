@@ -6,7 +6,7 @@ status: active
 parent: roadmap-l3-1.1
 ---
 
-# Intent (why now):
+# Step 1.1.2 First Words and Jokes
 
 **Intent (why now):** Establish Igor’s earliest voice—micro-patterns of words, timing, and safe humor—so every future interaction inherits a consistent tone that respects the **Perfect Failsafe Metaphor** and the **Standards Scroll**.
 

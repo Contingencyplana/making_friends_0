@@ -6,7 +6,7 @@ status: drafting
 parent: roadmap-l3-1.1.2  
 ---
 
-# Do
+# Step 1.1.2.2 Humor Rails
 
 ## Purpose
 Define **kind, safe, and readable** boundaries for Igor’s humor so jokes enhance clarity, never at the user’s expense, and always respect the **Perfect Failsafe Metaphor** and the **Standards Scroll**.

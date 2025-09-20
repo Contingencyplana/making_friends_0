@@ -6,7 +6,7 @@ status: complete
 parent: roadmap-l3-1.1.1
 ---
 
-# Step 1 1 1 5 Closing Beat
+# Step 1.1.1.5 Closing Beat
 
 ## Purpose
 Seal the **Genesis of Igor** mini-arc with a short, playable beat:

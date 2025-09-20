@@ -9,7 +9,7 @@
   Status: active  
 ---
 
-# Step 1 1 2
+# Step 1.1.2
 
 ## Provenance
 - This roadmap replaces Step 1.1.1 (Genesis of Igor), which is now archived under `planning/archive/year2025/sept/`.  

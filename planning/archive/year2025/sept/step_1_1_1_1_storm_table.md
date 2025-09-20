@@ -6,7 +6,7 @@ status: complete
 parent: roadmap-l3-1.1.1
 ---
 
-# Narrative beat:
+# Step 1.1.1.1 Storm Table
 
 **Narrative beat:**  
 The Lonely Doctor and Grumble gather broken coils, stormglass, and fragments of lightning.  

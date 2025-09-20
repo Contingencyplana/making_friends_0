@@ -7,7 +7,7 @@ parent: step-1-1-1-genesis-of-igor
 level: 3
 ---
 
-# Narrative beat:
+# Step 1.1.1.2 Igor Awakens
 
 **Narrative beat:**  
 A spark jumps, the husk twitches. Igor sits upright, blurts out his first comic line —  

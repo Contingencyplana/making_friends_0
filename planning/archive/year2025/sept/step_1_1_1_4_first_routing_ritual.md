@@ -6,7 +6,7 @@ status: complete
 parent: roadmap-l3-1.1.1
 ---
 
-# Step 1 1 1 4 First Routing Ritual
+# Step 1.1.1.4 First Routing Ritual
 
 ## Context
 With the **Lever Slotting Plan** (1.1.1.3) complete, the canonical assignments are fixed on paper.  
