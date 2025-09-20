@@ -1,5 +1,3 @@
-# Poles Seating Plan — The Grand Parliament (15 + 15, Doctor as Tie-Breaker)
-
 ---
 id: poles-seating-plan
 kind: parliament-scroll
@@ -7,6 +5,8 @@ owners: [planning]
 status: active
 level: 2
 ---
+
+# Poles Seating Plan — The Grand Parliament (15 + 15, Doctor as Tie-Breaker)
 
 The Parliament of Friends is bicameral and symmetrical:
 

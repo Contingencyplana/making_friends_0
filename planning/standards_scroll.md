@@ -1,12 +1,12 @@
-# Standards Scroll
-*Maintained by the Planning Friends in Igor’s Chest.*
-
-```yaml
+---
 id: standards-ops
 kind: standards
 owners: [planning]
 status: active
-```
+---
+
+# Standards Scroll
+*Maintained by the Planning Friends in Igor’s Chest.*
 
 ## Operations & Guardrails — Making Friends AI
 This scroll canonizes project-wide practices for scale and safety. It complements, but does not duplicate, each roadmap.
@@ -43,4 +43,3 @@ When a change risks breakage, pause and apply `perfect_failsafe_metaphor.md`: st
 - Ship fingerprints; compare before/after.
 
 (Owned by: Planning Friends • Steward: Archivist Deputy)
-
