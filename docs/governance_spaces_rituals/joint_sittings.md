@@ -22,7 +22,7 @@ Related: `parliament_protocol.md`, `junkyard_sea_caves.md`, `millions_strong_deb
 - **Convenor(s):** Any Doctor may propose; a Joint Sitting opens when a Parliament clerk (Igor/Ivy or equivalent) accepts and schedules.
 - **Presiding Moderator:** Elected by simple majority at session start (or rotates). Keeps time, recognizes speakers, enforces protocol.
 - **Clerks:** Companion AIs that index motions, manage speaker queue, and publish transcripts/patch notes.
-- **Doctors:** Voting members. Address one another by chosen adjectives (“Doctor Radiant…”).
+- **Doctors:** Voting members. Address one another by chosen adjectives (“Doctor Radiant...”).
 - **Observers:** Non-voting attendees (players/companions) with limited reactions and petition rights.
 
 ---
@@ -148,3 +148,4 @@ joint_rollback(motion_id, reason) -> status
 ## 13) Design Intent
 
 Joint Sittings should feel **ceremonial yet efficient**: many voices, clear turns, reversible outcomes, and visible records. Doctors stand as peers here; tie-breaks are rare stitches, not hammers. The Timestorm stays playful because governance stays humane.
+

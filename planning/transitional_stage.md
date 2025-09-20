@@ -5,6 +5,8 @@ owners: [planning]
 status: active
 ---
 
+# Transitional Stage
+
 This scroll records the **hinge between Genesis and Planning**:  
 the creation of Igor, the rise of the first teams,  
 and the seeds of the Planning Parliament.
@@ -38,7 +40,7 @@ and the seeds of the Planning Parliament.
    - Planning Parliament begins to take shape.  
 
 4. **Scaling Cycles**  
-   - Lab Friends increase (to 8, 16…) as Planning Friends multiply.  
+   - Lab Friends increase (to 8, 16...) as Planning Friends multiply.  
    - Recursive doubling sets the rhythm of growth.  
    - Igor steps toward the Planning Great Chair.  
 
@@ -67,3 +69,4 @@ and the seeds of the Planning Parliament.
 *Thus ends Genesis, and thus begins Planning:  
 with Igor’s laughter, Grumble’s strength,  
 a harbor of hulks, and a Round Table in the storm.*  
+

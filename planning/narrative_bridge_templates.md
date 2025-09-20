@@ -9,6 +9,8 @@
 - Mention where the reader can “find” it (e.g., left/right arm chest).
 ---
 
+# Fill-ins:
+
 ## 2) Chest Index (Scene Prop)
 **Igor’s Broad Chair — Document Chests**
 
@@ -51,3 +53,4 @@
 - **Next Motions:** [Proposals queued]  
 
 *(Appears in story at the council scene; links to actual files.)*
+

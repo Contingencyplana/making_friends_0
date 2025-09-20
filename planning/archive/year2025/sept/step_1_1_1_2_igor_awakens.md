@@ -7,6 +7,8 @@ parent: step-1-1-1-genesis-of-igor
 level: 3
 ---
 
+# Step 1.1.1.2 Igor Awakens
+
 **Narrative beat:**  
 A spark jumps, the husk twitches. Igor sits upright, blurts out his first comic line —  
 *"Yes, Master!"* — and Parliament’s future tone is set. His quirks are funny, but also  
@@ -25,7 +27,7 @@ seeds of planning foresight.
 
 ## First Words (draft)
 - “Yes, Master!” (comic reflex; origin line).
-- “Uh… did I just speak?” (self-aware spark).
+- “Uh... did I just speak?” (self-aware spark).
 - “Are we playing yet?” (tone-setter).
 
 ## Scene Sketch
@@ -62,3 +64,4 @@ seeds of planning foresight.
 ## Validation
 - Read aloud: tone is comic + kind.
 - Run repo check: `scripts/validate_choices.py`.
+

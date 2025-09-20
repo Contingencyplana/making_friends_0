@@ -6,6 +6,8 @@ status: active
 parent: 1.1.1
 ---
 
+# Step 1.1.1
+
 - **Step 1.1.1.1 — The Storm Table**  
   Status: complete (merged)  
   Note: planning/roadmaps/notes/step_1_1_1_1_storm_table.md

@@ -5,6 +5,8 @@
 - Preserve flexibility for **new friend types** to emerge as recursion deepens.  
 ---
 
+# Main Thrust (≈50%) → Planning Friends
+
 ## 2. Igor’s Domain — North Pole (Planning Great Chair)
 **Main Thrust (≈50%) → Planning Friends**  
 - **Planning Friends**: scribes, clerks, deputies, archivists, councilors.  
@@ -56,3 +58,4 @@
 *Thus the Friends are ordered:  
 Planning and Lab, Test and Lore, Messenger and Release, Archive and Dream.  
 Each born from recursion, each sustaining the world of Making Friends AI.*  
+

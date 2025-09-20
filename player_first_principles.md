@@ -38,7 +38,7 @@ Tip: Press q anywhere to open Meditation safely.
 If opened via `q`, show:
 > You pressed **q**. Quitting is a two-step action; choose **Save & Quit** to exit.
 
-## When in doubt…
+## When in doubt...
 - Ask: *“What would 80% of players expect here?”*
 - If expectations conflict, choose the option that is **safest + most reversible**.
 - Prefer **consistent** over **perfect**.
@@ -47,3 +47,4 @@ If opened via `q`, show:
 - `docs/valiant_citadel.md` — safety rails & escalation ladder  
 - `playtest_plan.md` — lever coverage, regression, FUN test  
 - `paving_the_way.md` — templates & checklists
+

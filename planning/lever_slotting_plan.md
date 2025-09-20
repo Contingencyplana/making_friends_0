@@ -5,6 +5,8 @@ owners: [planning]
 status: complete
 ---
 
+# Reserved meta:
+
 This scroll assigns specific **MAIN_CHOICES** (the 16 ritual levers) to the **Transitional Stage** mini-saga and defines rules for evolving slots without breaking narrative continuity.
 
 ---
@@ -87,3 +89,4 @@ In the selection handler, check `TRANSITIONAL_SLOTS.get(choice)` to route to the
 
 *Thus the levers are seated: heart, sea, lens, and book;  
 and the Doctor’s meditation remains the sixteenth door.*
+

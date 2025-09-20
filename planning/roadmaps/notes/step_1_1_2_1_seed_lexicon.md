@@ -6,6 +6,8 @@ status: complete
 parent: roadmap-l3-1.1.2  
 ---
 
+# Step 1.1.2.1 Seed Lexicon
+
 ## Purpose
 Provide Igor with his **first working vocabulary**, so he can greet, acknowledge, and encourage the player safely.  
 This step turns the draft YAML seed lexicon into a usable resource inside the codebase.

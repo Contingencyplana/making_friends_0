@@ -23,7 +23,7 @@ Applies to: planning/, story/, friends/, scripts/, releases/, dist/
 - Release builds run a markdown link check.
 
 ## 3. Archives & Sharding
-- Close out large/finished areas to `planning/archive/<year>/…` with an index pointer.
+- Close out large/finished areas to `planning/archive/<year>/...` with an index pointer.
 - DRs document any relocation.
 
 ## 4. Validation Suite
@@ -43,3 +43,4 @@ When a change risks breakage, pause and apply `perfect_failsafe_metaphor.md`: st
 - Ship fingerprints; compare before/after.
 
 (Owned by: Planning Friends • Steward: Archivist Deputy)
+

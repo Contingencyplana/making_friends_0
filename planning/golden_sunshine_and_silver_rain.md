@@ -8,6 +8,8 @@
 - We are the **Golden Sunlight** and **Nurturing Silver Rain**.  
 ---
 
+# Golden Sunshine And Silver Rain
+
 ## 2. The Metaphor of Climate
 - **Golden Sunlight** → vision, inspiration, possibility.  
   - Sparks ideas.  

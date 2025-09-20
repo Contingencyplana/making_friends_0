@@ -11,6 +11,8 @@
   - *Footlocker — Archive*: superseded DRs, retired notices.  
 ---
 
+# Doc Chests Contract
+
 ## 2. Narrative Bridge Rules
 - Every overarching planning file must be reachable through at least one **Lore Note** or **Chest Index** in-story.  
 - Parliament artifacts (DRs, Proposals, Motions, Minutes) are always stored in the **Left Arm Chest**.  

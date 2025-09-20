@@ -5,6 +5,8 @@
 - Preserve symmetry between the **North Pole (Planning)** and **South Pole (Whitecoat)**.  
 ---
 
+# Main Focus (≈50%) → Planning Friends
+
 ## 2. Igor, the Great Planner (North Pole)
 
 **Main Focus (≈50%) → Planning Friends**  
@@ -61,3 +63,4 @@ Together they keep the recursive Parliament alive, ensuring no act of making pro
 half to Planning, half to Making,  
 each thrust mirrored by its support,  
 each pole held in balance.*  
+

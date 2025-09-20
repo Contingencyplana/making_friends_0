@@ -6,6 +6,8 @@ status: complete
 parent: roadmap-l3-1.1.1
 ---
 
+# Step 1.1.1.1 Storm Table
+
 **Narrative beat:**  
 The Lonely Doctor and Grumble gather broken coils, stormglass, and fragments of lightning.  
 Together they shape the husk that will become Igor. Laughter crackles between thunderbolts:  
