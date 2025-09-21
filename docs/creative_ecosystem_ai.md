@@ -42,13 +42,13 @@ Where proto-structures were fragile sparks, synergistic structures are living sy
 ---
 
 ### 1. From *Making Friends AI* → **Friendship Networks AI**  
-*Synergy:* Many Doctors, many companions, woven across timelines. Cyberfriends learn to collaborate, cross-support, and link labs.  
+*Synergy:* **Interactive Novel** — a long-form, cross-timeline story binding Doctors and companions.  
+**Chapters =** arcs/sprints · **Scenes =** sessions/PRs · **Choices =** proposals & motions · **Outcomes =** DRs/merges.  
+The novel stitches labs and timelines so players can *read and play* the project as one unfolding narrative.
 
-**Note:** The *Making Friends AI* is both the first proto-structure and a **harbinger** of the rest.  
-It overlaps with many of the other fifteen AIs, as its planning scrolls (`great_dream.md`,  
-`great_vision.md`, `golden_sunshine_and_silver_rain.md`, etc.) set the seeds for their emergence.  
-Thus, it is foundation, genesis and guide: the scrolls that accompany it preserve not just one path,  
-but the doctrine that the others grow from.  
+**Note:** *Making Friends AI* is both the first proto-structure and a **harbinger** of the rest.  
+Its planning scrolls (`great_dream.md`, `great_vision.md`, `golden_sunshine_and_silver_rain.md`, etc.) seed the others.  
+Thus it is foundation, genesis, and guide: not a single path, but the doctrine the others grow from.
 
 ### 2. From *Supreme Simplicity AI* → **Clarity Compass AI**  
 *Synergy:* **Interactive Picture Books with words**, embodying a living design doctrine in every system. Detects creeping complexity and prunes it, ensuring joy and ease scale with growth.  
