@@ -1,3 +1,10 @@
+---
+id: creative-ecosystem-ai
+kind: doctrine
+owners: [planning]
+status: active
+---
+
 # Creative Ecosystem AI
 
 The destination doctrine for **making_friends_0**:  

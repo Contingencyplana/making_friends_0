@@ -1,3 +1,10 @@
+---
+id: valiant-citadel
+kind: charter
+owners: [planning]
+status: active
+---
+
 # Valiant Citadel — Safety Charter
 
 The Valiant Citadel stands guard over **making_friends_0**.  

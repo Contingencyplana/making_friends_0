@@ -1,3 +1,10 @@
+---
+id: overview
+kind: docs
+owners: [planning]
+status: active
+---
+
 # Making Friends — Overview & Roadmap
 
 *A gothic interactive novel that doubles as a maker. Pull 16 levers in a timestorm lab, stitch tiny cyberfriends, and let the story build the tools that build more story.*

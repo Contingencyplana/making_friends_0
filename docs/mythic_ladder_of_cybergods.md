@@ -1,3 +1,10 @@
+---
+id: mythic-ladder-of-cybergods
+kind: doctrine
+owners: [planning]
+status: active
+---
+
 # Mythic Ladder of Cybergods
 
 This file is a **scaling doctrine**:  

@@ -1,3 +1,10 @@
+---
+id: foundations-and-roles
+kind: doctrine
+owners: [planning]
+status: active
+---
+
 # Foundations and Roles
 
 Nine roles and Five Es work together to both **build** and **safeguard**:  

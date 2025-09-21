@@ -1,4 +1,11 @@
-# Foundation of SHAGI  
+---
+id: foundation-of-shagi
+kind: doctrine
+owners: [planning]
+status: active
+---
+
+# Foundation of SHAGI
 *Supersafe Hyperadvanced Artificial General Intelligence — Multiverse Hivemind*
 
 This document defines the **north star** for SHAGI: a safety-first, child-safe, creator-friendly ecosystem that powers **thousands of interconnected multiplayer video games** built on the Creative Ecosystem AI.
