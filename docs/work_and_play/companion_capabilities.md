@@ -17,11 +17,11 @@ Related: `doctors_stitch_ui.md`, `companion_workbench.md`, `lonely_doctor_spec.m
 
 | Tier           | Symbol | What it Means                                                                  | Who Approves             |
 |----------------|:------:|--------------------------------------------------------------------------------|-----=--------------------|
-| **None**       |   0    | Knows the name of the task only.                                               | Doctor                        |
+| **None**       |   0    | Knows the name of the task only.                                               | Doctor                   |
 | **Novice**     |   1    | Can run the task with a template & checklists; needs step-by-step prompts.     | Doctor every time             |
 | **Apprentice** |   2    | Can run end-to-end from a recipe; surfaces choices; self-checks basic outputs. | Doctor or designated reviewer         |
 | **Journeyman** |   3    | Adapts recipes; handles edge-cases; writes patch-notes; schedules runs.        | Auto with post-review window           |
-| **Master**     |   4    | Improves recipes; proposes new tasks; mentors other companions; measures KPIs. | Auto by policy + audits       |
+| **Master**     |   4    | Improves recipes; proposes new tasks; mentors other companions; measures KPIs. | Auto by policy + audits           |
 
 **Promotion rule:** 3 consecutive green runs (no rollbacks) under supervision at a tier → eligibility for trial at the next tier.
 
@@ -33,42 +33,42 @@ Related: `doctors_stitch_ui.md`, `companion_workbench.md`, `lonely_doctor_spec.m
 
 ### A. Project & Repo Hygiene
 
-| Task                       | None | Novice                   | Apprentice                       | Journeyman                      | Master   |
-|----------------------------|:----:|--------------------------|----------------------------------|---------------------------------|----------|
-| Scaffold folder/file trees | 🔒   | ✅ from template        | ✅ parametric variants           | ✅ refactor + migrate content  | ✅ define new templates & deprecation paths       |
-| Lint & format              | 🔒   | ✅ run linter/formatter | ✅ auto-fix trivial issues       | ✅ enforce pre-commit hooks    | ✅ tune rules; propose rule changes                |
-| Dependency sanity check    | 🔒   | ✅ list & diff          | ✅ pin/upgrade minors (approval) | ✅ safe upgrades + smoke tests | ✅ upgrade strategy & rollback plans           |
+| Task                       | None | Novice                   | Apprentice                       | Journeyman              | Master  |
+|----------------------------|:----:|--------------------------|----------------------------------|-------------------------|---------|
+| Scaffold folder/file trees | 🔒   | ✅ from template        | ✅ parametric variants           | ✅ refactor + migrate content  | ✅ define new templates & deprecation paths                       |
+| Lint & format              | 🔒   | ✅ run linter/formatter | ✅ auto-fix trivial issues       | ✅ enforce pre-commit hooks    | ✅ tune rules; propose rule changes                               |
+| Dependency sanity check    | 🔒   | ✅ list & diff          | ✅ pin/upgrade minors (approval) | ✅ safe upgrades + smoke tests | ✅ upgrade strategy & rollback plans                              |
 
 ### B. Build, Package, Release
 
-| Task                      | None | Novice            | Apprentice                     | Journeyman                            | Master       |
-|---------------------------|:----:|-------------------|--------------------------------|---------------------------------------|--------------|
-| Zip builds / bundles      | 🔒   | ✅ on demand     | ✅ scheduled (Doctor confirms) | ✅ auto on tags; publish draft notes | ✅ release trains; optimize artifact size             |
-| Smoke tests               | 🔒   | ✅ run suite     | ✅ author simple tests         | ✅ gate releases on tests            | ✅ test strategy & coverage goals                     |
-| Patch notes (story-style) | 🔒   | ✅ template fill | ✅ context-aware notes         | ✅ link to diffs, KPIs               | ✅ curate parade & cross-timeline changelogs          |
+| Task                      | None | Novice            | Apprentice                     | Journeyman                         | Master |
+|---------------------------|:----:|-------------------|--------------------------------|------------------------------------|--------|
+| Zip builds / bundles      | 🔒   | ✅ on demand     | ✅ scheduled (Doctor confirms) | ✅ auto on tags; publish draft notes | ✅ release trains; optimize artifact size     |
+| Smoke tests               | 🔒   | ✅ run suite     | ✅ author simple tests         | ✅ gate releases on tests            | ✅ test strategy & coverage goals          |
+| Patch notes (story-style) | 🔒   | ✅ template fill | ✅ context-aware notes         | ✅ link to diffs, KPIs               | ✅ curate parade & cross-timeline changelogs |
 
 ### C. Content & Assets (Books, Motifs, Kits)
 
-| Task                               | None | Novice           | Apprentice                      | Journeyman                         | Master |
-|------------------------------------|:----:|------------------|---------------------------------|------------------------------------|--------|
-| Generate motif variants            | 🔒   | ✅ from palette | ✅ palette + rhythm/shape rules | ✅ style transfer within policy            | ✅ propose new palettes; measure reception     |
-| Assemble “music+colour kits”       | 🔒   | ✅ from recipe  | ✅ mix & match safely           | ✅ balance levels; A/B variants            | ✅ meta-kits; cross-AI compatibility           |
-| Produce interactive page scaffolds | 🔒   | ✅ boilerplate  | ✅ with simple interactivity    | ✅ adaptive UX hints (accessibility aware) | ✅ new interaction patterns                    |
+| Task                               | None | Novice           | Apprentice                      | Journeyman                | Master |
+|------------------------------------|:----:|------------------|---------------------------------|---------------------------|--------|
+| Generate motif variants            | 🔒   | ✅ from palette | ✅ palette + rhythm/shape rules | ✅ style transfer within policy                               | ✅ propose new palettes; measure reception                |
+| Assemble “music+colour kits”       | 🔒   | ✅ from recipe  | ✅ mix & match safely           | ✅ balance levels; A/B variants                             | ✅ meta-kits; cross-AI compatibility                      |
+| Produce interactive page scaffolds | 🔒   | ✅ boilerplate  | ✅ with simple interactivity    | ✅ adaptive UX hints (accessibility aware)                               | ✅ new interaction patterns                               |
 
 ### D. GitOps & Governance Support
 
-| Task                     | None | Novice                  | Apprentice                    | Journeyman                              | Master |
-|--------------------------|:----:|-------------------------|-------------------------------|-----------------------------------------|--------|
-| Create branches          | 🔒   | ✅ prefixed (`feat/...`) | ✅ protective naming policies | ✅ auto-branch on PR creation            | ✅ branching strategy advisor        |
-| Open PRs with checklists | 🔒   | ✅ template PR         | ✅ risk notes + reviewers     | ✅ label, assign, schedule merge windows | ✅ cross-timeline coordination       |
-| Merge (non-critical)     | 🔒   | ⚠️ with Doctor present | ⚠️ with green checks          | ✅ auto-merge in maintenance windows     | ✅ policy-driven merges              |
+| Task                     | None | Novice                    | Apprentice                    | Journeyman                   | Master |
+|--------------------------|:----:|---------------------------|-------------------------------|------------------------------|--------|
+| Create branches          | 🔒   | ✅ prefixed (`feat/...`) | ✅ protective naming policies | ✅ auto-branch on PR creation            | ✅ branching strategy advisor     |
+| Open PRs with checklists | 🔒   | ✅ template PR           | ✅ risk notes + reviewers     | ✅ label, assign, schedule merge windows | ✅ cross-timeline coordination    |
+| Merge (non-critical)     | 🔒   | ⚠️ with Doctor present   | ⚠️ with green checks          | ✅ auto-merge in maintenance windows   | ✅ policy-driven merges           |
 
 ### E. Parliament & Ceremony Aids
 
-| Task                         | None | Novice                 | Apprentice                  | Journeyman                             | Master |
-|------------------------------|:----:|------------------------|-----------------------------|----------------------------------------|--------|
+| Task                         | None | Novice                 | Apprentice                  | Journeyman                    | Master |
+|------------------------------|:----:|------------------------|-----------------------------|-------------------------------|--------|
 | Motion packet prep           | 🔒   | ✅ gather artifacts   | ✅ summarize arguments      | ✅ neutral brief + alternatives       | ✅ agenda-shaping suggestions            |
-| Transcript & caption tooling | 🔒   | ✅ export & timestamp | ✅ multi-language alignment | ✅ highlight decisions & action items | ✅ analytics on clarity & equity                   |
+| Transcript & caption tooling | 🔒   | ✅ export & timestamp | ✅ multi-language alignment | ✅ highlight decisions & action items | ✅ analytics on clarity & equity         |
 
 ---
 
@@ -136,6 +136,7 @@ capabilities:
       - diffs
       - kpis
 ```
+
 ## 7) KPIs (Capability Health)
 
 - **Teach Success Rate:** ≥70% first-attempt success per week.  
@@ -151,4 +152,3 @@ capabilities:
 Companions should feel like **apprentices who become craft partners**.  
 They take the drudgery, expose choices with kindness, and earn trust in public.  
 The tiers make progress visible; the stitch-and-story rituals make it joyful.
-
