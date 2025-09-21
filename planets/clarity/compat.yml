@@ -1,0 +1,8 @@
+schema: solar/v1
+planet: clarity-compass
+owners: [planning]
+status: draft
+compat:
+  - l1-mf@>=1.0
+  - l2-clarity@>=0.1
+  - l3-lucid@>=0.1

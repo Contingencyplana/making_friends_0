@@ -1,0 +1,12 @@
+{
+  "folders": [
+    { "name": "Planning", "path": "planning" },
+    { "name": "Docs",     "path": "docs" },
+    { "name": "Layers — Clarity", "path": "layers/clarity-compass" },
+    { "name": "Layers — Lucid",   "path": "layers/lucid-fleet" },
+    { "name": "Planet — Clarity", "path": "planets/clarity" },
+    { "name": "Planet — Lucid",   "path": "planets/lucid" }
+  ],
+  "settings": { "files.trimTrailingWhitespace": true, "editor.rulers": [100] },
+  "extensions": { "recommendations": ["ms-python.python","streetsidesoftware.code-spell-checker"] }
+}
