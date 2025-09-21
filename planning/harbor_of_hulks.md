@@ -27,7 +27,7 @@ status: active
 
 - **Doctor’s Genesis:**  
   - Born under a mere **Climate Curse**, the Doctor grew as calamity worsened.  
-  - As a boy he watched the **Equatorial Ocean** fall to an alien fleet, humbling every land-power.  
+  - As a boy he watched the **Equatorial Ocean** fall to an alien armada — an aquatic species that cared only for the sea — humbling every land-power.  
   - As a youth, foreseeing disaster, he assembled the world’s greatest scavenger fleet.  
   - He led them into the **Alien Sea Battle**, hauling wrecks into this cavern despite storms born of a **Cascading Climate Cataclysm**.  
   - From here he marched inland to raise the Generator.  
