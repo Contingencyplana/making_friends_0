@@ -1,3 +1,10 @@
+---
+id: patch-parades
+kind: guide
+owners: [planning]
+status: active
+---
+
 # Patch Parades — Ritualized Releases
 
 **Purpose.** Turn releases and rollbacks into joyful, transparent ceremonies.  

@@ -1,3 +1,10 @@
+---
+id: doctors-stitch-ui
+kind: guide
+owners: [planning]
+status: active
+---
+
 # Doctor’s Stitch UI — Playful Repair Toolkit
 
 **Purpose.** Provide a light, narrative-driven interface for Doctors to patch, repair, and guide their companions.  

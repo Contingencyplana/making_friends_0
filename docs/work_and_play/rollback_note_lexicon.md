@@ -1,4 +1,11 @@
-# Rollback Note Lexicon  
+---
+id: rollback-note-lexicon
+kind: guide
+owners: [planning]
+status: active
+---
+
+# Rollback Note Lexicon
 *A playful treasury of phrases for recovery rituals.*  
 
 Rollback events are never just “completed” — they are remembered as whimsical turns in the Doctor’s journey.  

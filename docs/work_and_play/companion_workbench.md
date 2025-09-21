@@ -1,3 +1,10 @@
+---
+id: companion-workbench
+kind: guide
+owners: [planning]
+status: active
+---
+
 # Companion Workbench
 
 **Purpose.** Provide a playful, transparent interface where Doctors assign, teach, and approve tasks for their companions (Igor, Ivy, etc.).  

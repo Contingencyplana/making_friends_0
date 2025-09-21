@@ -1,3 +1,10 @@
+---
+id: rollback-companion-rules
+kind: standards
+owners: [planning]
+status: active
+---
+
 # Rollback Companion Rules
 
 A ritual of care: every rollback note is signed by the Companion who performed it.  
