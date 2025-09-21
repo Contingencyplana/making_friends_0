@@ -1,4 +1,11 @@
-# Junkyard Sea Caves — Harbors of Hulks
+---
+id: junkyard-sea-cavern
+kind: ritual
+owners: [planning]
+status: active
+---
+
+# Junkyard Sea Cavern
 
 **Purpose.** Describe the vast, mythic-scale assembly spaces where millions can gather to watch, debate, vote, and celebrate.  
 The Sea Caves complement the Parliaments: less formal, more spectacular, yet still logged and safe.

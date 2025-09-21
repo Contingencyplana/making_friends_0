@@ -1,8 +1,16 @@
-# Joint Sittings — Cross-Timeline Parliament
+---
+id: lonely-doctor-spec
+kind: doctrine
+owners: [planning]
+status: active
+---
 
-**Purpose.** Define how multiple timelines convene a shared session to debate, vote, and record federation-level decisions — with clear quorums, phases, speaking rules, transcripts, safety, and rollback.
+# Lonely Doctor — Spec (Persona, Powers, Rituals)
 
-Related: `parliament_protocol.md`, `junkyard_sea_caves.md`, `millions_strong_debates.md`, `lonely_doctor_spec.md`
+**Purpose.** Define the playable persona “the Doctor” that every human inhabits in their own timeline,  
+including abilities, limits, tie-break rituals, maintenance powers, rate limits, and auditability.
+
+Related: `docs/core_role_identity/doctors_and_timelines.md`, `doctor_adjective_charter.md`
 
 ---
 

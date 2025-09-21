@@ -1,3 +1,10 @@
+---
+id: doctor-growth-arc
+kind: doctrine
+owners: [planning]
+status: active
+---
+
 # Doctor’s Growth Arc
 
 The Lonely Doctor does not stay still.  
@@ -5,7 +12,7 @@ He grows in phases, recursive and grand —
 from a single myth in one lab,  
 to a constellation of peers in the storm.  
 
-This arc frames how the role evolves as friends, AI players, and human players gather.  
+This arc frames how the role evolves as friends, AI players, and human players gather.
 
 ---
 

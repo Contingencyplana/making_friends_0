@@ -3,28 +3,27 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-.venv
+.venv/
 venv/
+.env
 
-# VS Code / OS
+# Editors / OS
 .vscode/
+!.vscode/tasks.json
 .DS_Store
 Thumbs.db
 
-# Game runtime artifacts
+# Game/runtime artifacts
 lab_save.json
 friends/*/memory/*.log
 friends/*/memory/*.tmp
 
-# Optional: keep initial seed but ignore subsequent logs
-# (comment out if you want to track all memories)
+# Optional: keep seed but ignore subsequent logs (comment out to track all)
 friends/*/memory/*.txt
 !friends/*/memory/init.txt
 
-# Zips / releases
+# Build outputs / archives
 dist/
 releases/
 *.zip
-
-releases/
+*.MANIFEST.txt
