@@ -1,3 +1,10 @@
+---
+id: making-music-ais
+kind: docs
+owners: [planning]
+status: active
+---
+
 # Music Maker AIs — Nurture & Challenge (Topsy / Thorn)
 
 **Purpose.** Define the shared doctrine for Entries **7 and 8** (Companions of Nurture AI and Companions of Challenge AI):  

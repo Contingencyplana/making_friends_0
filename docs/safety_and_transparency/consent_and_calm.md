@@ -1,3 +1,10 @@
+---
+id: consent-and-calm
+kind: doctrine
+owners: [planning]
+status: active
+---
+
 # Consent and Calm
 
 *A doctrine for co-creation that protects joy, trust, and safety in the Timestorm.*

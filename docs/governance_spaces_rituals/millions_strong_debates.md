@@ -1,3 +1,10 @@
+---
+id: millions-strong-debates
+kind: ritual
+owners: [planning]
+status: active
+---
+
 # Millions-Strong Debates
 
 **Purpose.** Define how vast assemblies of Doctors can speak, listen, and vote in the Junkyard Sea Cavern without chaos.  

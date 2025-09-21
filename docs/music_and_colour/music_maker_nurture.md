@@ -1,7 +1,14 @@
+---
+id: music-maker-nurture
+kind: docs
+owners: [planning]
+status: draft
+---
+
 # Music Maker AI — Nurture (Topsy’s Line)
 
 **Status:** Stub file.  
-This file will hold implementation notes, experiments, and demos for the **Companions of Nurture AI** (#7).  
+This file will hold implementation notes, experiments, and demos for the **Companions of Nurture AI** (#7).
 
 ---
 

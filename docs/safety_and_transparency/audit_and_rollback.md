@@ -1,3 +1,10 @@
+---
+id: audit-and-rollback
+kind: docs
+owners: [planning]
+status: active
+---
+
 # Audit & Rollback — Transparent Memory
 
 **Purpose.**  

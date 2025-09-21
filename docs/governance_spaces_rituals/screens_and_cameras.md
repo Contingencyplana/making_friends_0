@@ -1,3 +1,10 @@
+---
+id: screens-and-cameras
+kind: ritual
+owners: [planning]
+status: active
+---
+
 # Screens & Cameras — Signal Wall of the Cavern
 
 **Purpose.** Define the outer ring of displays and zoom-cams that make the Junkyard Sea Cavern scalable, safe, and accessible for millions of participants.  

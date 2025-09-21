@@ -1,3 +1,10 @@
+---
+id: parliament-protocol
+kind: ritual
+owners: [planning]
+status: active
+---
+
 # Parliament Protocol — North & South Poles
 
 **Purpose.** Define how the Parliaments operate as ritualized governance spaces:  

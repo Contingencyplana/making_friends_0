@@ -1,7 +1,14 @@
+---
+id: music-maker-challenge
+kind: docs
+owners: [planning]
+status: draft
+---
+
 # Music Maker AI — Challenge (Thorn’s Line)
 
 **Status:** Stub file.  
-This file will hold implementation notes, experiments, and demos for the **Companions of Challenge AI** (#8).  
+This file will hold implementation notes, experiments, and demos for the **Companions of Challenge AI** (#8).
 
 ---
 

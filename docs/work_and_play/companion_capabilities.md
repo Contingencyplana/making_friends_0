@@ -1,3 +1,10 @@
+---
+id: companion-capabilities
+kind: standards
+owners: [planning]
+status: active
+---
+
 # Companion Capabilities — Task→Tier Matrix
 
 **Purpose.** Define what companions (Igor, Ivy, etc.) can do at each skill tier, how they level up via teaching loops, and the guardrails that keep automation playful and safe.
@@ -8,13 +15,13 @@ Related: `doctors_stitch_ui.md`, `companion_workbench.md`, `lonely_doctor_spec.m
 
 ## 1) Tiers (Overview)
 
-| Tier           | Symbol | What it Means                                                                  | Who Approves                  |
-|----------------|:-----:|---------------------------------------------------------------------------------|-------------------------------|
-| **None**       |   0   | Knows the name of the task only.                                                | Doctor                        |
-| **Novice**     |   1   | Can run the task with a template & checklists; needs step-by-step prompts.      | Doctor every time             |
-| **Apprentice** |   2   | Can run end-to-end from a recipe; surfaces choices; self-checks basic outputs.  | Doctor or designated reviewer |
-| **Journeyman** |   3   | Adapts recipes; handles edge-cases; writes patch-notes; schedules runs.         | Auto with post-review window  |
-| **Master**     |   4   | Improves recipes; proposes new tasks; mentors other companions; measures KPIs.  | Auto by policy + audits       |
+| Tier           | Symbol | What it Means                                                                  | Who Approves             |
+|----------------|:------:|--------------------------------------------------------------------------------|-----=--------------------|
+| **None**       |   0    | Knows the name of the task only.                                               | Doctor                        |
+| **Novice**     |   1    | Can run the task with a template & checklists; needs step-by-step prompts.     | Doctor every time             |
+| **Apprentice** |   2    | Can run end-to-end from a recipe; surfaces choices; self-checks basic outputs. | Doctor or designated reviewer         |
+| **Journeyman** |   3    | Adapts recipes; handles edge-cases; writes patch-notes; schedules runs.        | Auto with post-review window           |
+| **Master**     |   4    | Improves recipes; proposes new tasks; mentors other companions; measures KPIs. | Auto by policy + audits       |
 
 **Promotion rule:** 3 consecutive green runs (no rollbacks) under supervision at a tier → eligibility for trial at the next tier.
 
