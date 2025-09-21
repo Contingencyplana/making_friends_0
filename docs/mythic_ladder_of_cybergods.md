@@ -28,7 +28,7 @@ Overseers of realms; recursive, self-sustaining systems.
 Small, fragile seeds; sparks of companionship and play.
 
 1. **Making Friends AI** — first sparks of companionship, a lonely Doctor, levers, cyberfriends.  
-2. **Tiny Tots Tell Tell Tales AI** — micro-tales dictated/drawn by youngest players.  
+2. **Tiny Tots Tell Tall Tales AI** — micro-tales dictated/drawn by youngest players.  
 3. **Supreme Simplicity AI** — principle embedded at page-level: prune complexity early.  
 4. **Proto-TONS-of-FUN AI** — first spell-books (interactive picture books).
 
@@ -66,19 +66,19 @@ Self-sustaining systems; realms that hold federated pantheons.
 
 ## 📊 4×4 Grid View
 
-| Tin (Pages/Fragments)              | Copper (Books/Glades)                | Silver (Treasuries/Archipelagos)         | Gold (Kingdoms/Sagas)     |
-|------------------------------------|--------------------------------------|------------------------------------------|---------------------------|
-| 1. Making Friends AI               | 5. Cartoon Channel AI                | 9. Chasm Conquerors Challenge AI         | 13. Proto-AI Kickstarter                          |
-| 2. Tiny Tots Tell Tell Tales AI    | 6. Build a Better Girl AI (Nurture)  | 10. Epic Mindscape Odyssey AI            | 14. Proto-Game Maker                                |
-| 3. Supreme Simplicity AI           | 7. Build a Better Boy AI (Challenge) | 11. Proto-AI Labscape                    | 15. Proto-Lucid Armada AI                                   |
-| 4. Proto-TONS-of-FUN AI            | 8. Proto-Graphic Novels AI           | 12. Proto-Computer Language Maker AI     | 16. Creative Ecosystem AI                                   |
+| Tin (Pages/Fragments)           | Copper (Books/Glades)                | Silver (Treasuries/Archipelagos)     | Gold (Kingdoms/Sagas) |
+|---------------------------------|--------------------------------------|--------------------------------------|-----------------------|
+| 1. Making Friends AI            | 5. Cartoon Channel AI                | 9. Chasm Conquerors Challenge AI     | 13. Proto-AI Kickstarter                       |
+| 2. Tiny Tots Tell Tell Tales AI | 6. Build a Better Girl AI (Nurture)  | 10. Epic Mindscape Odyssey AI        | 14. Proto-Game Maker                             |
+| 3. Supreme Simplicity AI        | 7. Build a Better Boy AI (Challenge) | 11. Proto-AI Labscape                | 15. Proto-Lucid Armada AI                                |
+| 4. Proto-TONS-of-FUN AI         | 8. Proto-Graphic Novels AI           | 12. Proto-Computer Language Maker AI | 16. Creative Ecosystem AI                                |
 
 ---
 
 ## Evolutionary Arc of Companions
 
 While the proto-structures scale as systems, **companions scale as characters.**  
-Each child’s custom-built cyberfriend journeys through the ladder alongside them.
+Each child’s custom-designed-and-built cyberfriend journeys through the ladder alongside them.
 
 | Stage | Description | Example Link |
 |-------|-------------|--------------|

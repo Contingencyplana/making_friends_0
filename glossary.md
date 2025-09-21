@@ -23,7 +23,7 @@ A metaphor for scope and growth: from fragments to books to treasuries to sagas.
 **SPB (Sequential Picture Book)**  
 A 32-page narrative book with words, forming part of the Mythic Ladder.
 
-**SHAGI (Supersafe Hyperadvanced General Intelligence)**  
+**SHAGI (Supersafe Hyperadvanced Artificial General Intelligence)**  
 The Multiverse’s hivemind: thousands of interconnected video games bound by safety and play.
 
 **VSC (Visual Studio Code)**  

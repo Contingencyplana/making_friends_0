@@ -47,4 +47,3 @@ If opened via `q`, show:
 - `docs/valiant_citadel.md` — safety rails & escalation ladder  
 - `playtest_plan.md` — lever coverage, regression, FUN test  
 - `paving_the_way.md` — templates & checklists
-
