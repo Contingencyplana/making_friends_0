@@ -1,11 +1,18 @@
 ---
+id: types-of-friends
+kind: standards
+owners: [planning]
+status: active
+---
+
+# Types of Friends
+
 ## 1. Purpose
 - Define the major **types of friends**.  
 - Clarify their distribution between Igor (Planning, North Pole) and Ivy (Whitecoat, South Pole).  
-- Preserve flexibility for **new friend types** to emerge as recursion deepens.  
----
+- Preserve flexibility for **new friend types** to emerge as recursion deepens.
 
-# Main Thrust (≈50%) → Planning Friends
+---
 
 ## 2. Igor’s Domain — North Pole (Planning Great Chair)
 **Main Thrust (≈50%) → Planning Friends**  
@@ -58,4 +65,3 @@
 *Thus the Friends are ordered:  
 Planning and Lab, Test and Lore, Messenger and Release, Archive and Dream.  
 Each born from recursion, each sustaining the world of Making Friends AI.*  
-

@@ -1,3 +1,10 @@
+---
+id: doctors-and-timelines
+kind: charter
+owners: [planning]
+status: active
+---
+
 # Doctors and Timelines — The Great Timestorm
 
 **Purpose.** Define how every human player steps into the role of *the Doctor*  

@@ -1,3 +1,10 @@
+---
+id: doctor-adjective-charter
+kind: charter
+owners: [planning]
+status: active
+---
+
 # Doctor Adjective Charter  
 *Whimsical rule for naming the Doctors of the Great Timestorm.*
 
