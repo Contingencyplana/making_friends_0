@@ -53,6 +53,29 @@ A topic **may be Single-Chamber** if:
 - **Minutes:** One joint minutes file per sitting, with annexes for chamber-specific notes.
 - **Cross-Refs:** DRs link to `planning/parliament_protocol.md` and affected charters.
 
+### Minutes Front-Matter (Example)
+
+See the starter template: [planning/templates/minutes_TEMPLATE.md](../templates/minutes_TEMPLATE.md) (copy/rename to your date).
+
+```yaml
+id: minutes-YYYYMMDD
+kind: minutes
+owners: [planning]
+status: active
+bicameral: true
+chambers: [north, south]
+sitting: 2025-09-22
+links:
+  - dr: planning/dr/DR-YYYYMMDD-####.md
+```
+
+## (If you choose to extend the contract) quick tweak for `heading_contract.md`
+Find the allowed `kind` list and include `minutes` (and optionally the others later). For example:
+
+```md
+- `kind` — one of: `standards | lore | roadmap | doctrine | parliament-scroll | contract | charter | spec | guide | minutes`
+```
+
 ---
 
 ## Transitional Guidance
