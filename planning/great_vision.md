@@ -1,4 +1,4 @@
- ---
+---
 id: great-vision
 kind: lore
 owners: [planning]

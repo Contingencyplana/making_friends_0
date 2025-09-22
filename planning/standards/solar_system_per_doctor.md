@@ -52,11 +52,11 @@ Let a Doctor open the base plus selected planets at once.
 }
 ```
 
-# Solar System per Doctor — Quick Reference
+## Solar System per Doctor — Quick Reference
 
 > Save as `solar.code-workspace` at the repo root.
 
-## Minimal Overlay Schema (compatibility contract)
+### Minimal Overlay Schema (compatibility contract)
 
 Each overlay declares what it needs so L3 can verify:
 
@@ -71,12 +71,12 @@ compat:
   - l3-lucid@>=0.1
 ```
 
-# Lucid Fleet — Overlay Verification & Workspace Guidelines
+## Lucid Fleet — Overlay Verification & Workspace Guidelines
 
-## Lucid Fleet Report
+### Lucid Fleet Report
 Teach Lucid Fleet to read `compat.yml` and print a ✅/❌ report.
 
-## When to Mint a New Workspace
+### When to Mint a New Workspace
 Create a new VS Code workspace only if at least one is true:
 - Separate runtime/process (needs its own debugger or devcontainer).
 - Different release cadence than L1.
@@ -84,7 +84,7 @@ Create a new VS Code workspace only if at least one is true:
 
 Otherwise, implement it as an overlay in `planets/<planet>/`.
 
-## Why Not “Layer Chaining”
+### Why Not “Layer Chaining”
 The “1A/2A/3B contains everything before it” approach seems tidy but causes:
 - Dependency snowballs (update 2, rebuild 3..16),
 - Duplicate code/config,
@@ -92,7 +92,7 @@ The “1A/2A/3B contains everything before it” approach seems tidy but causes:
 
 Shared horizontal layers + tiny planet overlays give compatibility with far less pain.
 
-## Do-Now Checklist
+### Do-Now Checklist
 - Create `layers/clarity-compass/` and `layers/lucid-fleet/`.
 - Create `planets/clarity/` and `planets/lucid/` as examples.
 - Add `compat.yml` to each overlay (schema above).

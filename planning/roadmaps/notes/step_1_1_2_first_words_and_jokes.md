@@ -60,7 +60,7 @@ encouragements:
   - "We’re moving—gently and surely."
 ```
 
-# Humor Rails v1
+## Humor Rails v1
 - No sarcasm at the user’s expense.  
 - Prefer observational or self-deprecating quips.  
 - Keep jokes short; never block progress.  
@@ -68,7 +68,7 @@ encouragements:
 
 ---
 
-# Mini Promptlets v1
+## Mini Promptlets v1
 - “Only if helpful—shall I try a tiny step?”  
 - “If you like, I can explain in one sentence.”  
 - “We can pause here and breathe.”  
@@ -76,7 +76,7 @@ encouragements:
 
 ---
 
-# Validation
+## Validation
 - Review the YAML for tone, clarity, and consent-friendly phrasing.  
 - Run `python -m main.app`; pick T1–T4 and confirm spoken lines display and return to menu.  
 - Confirm no conflicts with doctrine scrolls.  

@@ -50,8 +50,6 @@ status: active
   - Step 8.2 → `making_friends_23`: **Commercial Launch Face** — scaling outward, launch & GTM.  
 ---
 
-# Main Roadmap
-
-### Notes
+## Notes
 - Work on the **game client** (Step 8.1) should begin as soon as a **playable prototype** is available.  
 - **Commercial launch** (Step 8.2) may be accelerated if community interest and readiness warrant it.  

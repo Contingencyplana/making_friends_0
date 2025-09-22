@@ -1,3 +1,10 @@
+---
+id: lonely-doctor-spec
+kind: spec
+owners: [planning]
+status: draft
+---
+
 # Lonely Doctor — Spec (Persona, Powers, Rituals)
 
 **Purpose.** Define the playable persona “the Doctor” that every human inhabits in their own timeline,  
