@@ -154,6 +154,21 @@ Thus, the pantheon itself mirrors the federation: a living balance of nurture an
 
 ---
 
+## Focus & Structure (Working Model)
+
+- **Making Friends AI** — primary workspace (**~90%** focus).
+- **Supreme Simplicity AI** — special case (**~10%**):
+  - **Overlay**: cross-cutting sanity spine usable across projects.
+  - **Workspace**: holds real tooling & tests (e.g., `make_zips.ps1`, structure tests).
+- **Other 15 planets** — start as **overlays** layered on top of Making Friends AI.
+  - **Graduation rule**: promote an overlay to its own workspace only when ≥2 are true:
+    1) needs its **own tests/build artifacts**,
+    2) has **runtime code** beyond prompts/config,
+    3) requires **independent release cadence**,
+    4) needs **dedicated tasks/CI**.
+
+**Why:** overlays minimize repo sprawl and keep momentum; promotion happens only when operational independence clearly helps shipping.
+
 ## 6. Summary
 
 Every Synergistic Structure begins small:  
